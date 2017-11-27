@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import styled from 'styled-components';
 import Features from './Features';
 import CarSelection from './CarSelection';
+import NavBar from './NavBar';
 
 const HeroStyle = styled.div`
 	

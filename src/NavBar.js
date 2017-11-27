@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Hero from './Hero';
-import Home from './Home';
 
 
-export default class App extends Component {
+
+export default class NavBar extends Component {
 
   // constructor (props) {
     // super(props);
@@ -16,9 +15,17 @@ export default class App extends Component {
 
   render() {
     return (
-    	<div>
-        <Home/>
-      </div>
+    	<nav>
+        <ul>
+          <li>Model S</li>
+          <li>Model X</li>
+          <li>Model 3</li>
+          <li>Roadster</li>
+        </ul>
+        <div className="logo">
+          <img src="" />
+        </div>
+      </nav>
       
     );
   }

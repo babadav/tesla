@@ -44,6 +44,8 @@ export default class CarSelection extends Component {
         <div className = 'buttons'>
           <button onClick = {()=>{this.changeCar(0)}}>Click</button>
           <button onClick = {()=>{this.changeCar(1)}}>Click</button>
+          <button onClick = {()=>{this.changeCar(2)}}>Click</button>
+          <button onClick = {()=>{this.changeCar(3)}}>Click</button>
         </div>
         <Car {...this.state.data[this.state.carChoice]} />
         </div>
