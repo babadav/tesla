@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Hero from './Hero';
-import Home from './Home';
-import NavBar from './NavBar';
-import Overview from './Overview';
+import Hero from './Hero.js';
+import ThreeD from './ThreeD';
+import Features from './Features';
 
 
-
-export default class App extends Component {
+export default class CarPage extends Component {
 
   // constructor (props) {
     // super(props);
@@ -20,13 +18,12 @@ export default class App extends Component {
   render() {
     return (
     	<div>
-        <NavBar />
-
-        <Home />
-
-        <Home/>
-        <Overview />
+        <Hero />
+        <h3>This is the summary that will be replaced</h3>
+        <ThreeD />
+        <Features />
       </div>
+      
     );
   }
 }

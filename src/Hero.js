@@ -33,8 +33,6 @@ export default class Hero extends Component {
 	    	<HeroStyle>
 	    	<H1Style>Hello World</H1Style>
 	    	</HeroStyle>
-	    	<Features />
-	    	<CarSelection />
     	</div>
     );
   }

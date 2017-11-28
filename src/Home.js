@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Features from './Features';
 import CarSelection from './CarSelection';
 import Hero from './Hero';
-import NavBar from './NavBar';
 
 const HeroStyle = styled.div`
 	
