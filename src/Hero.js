@@ -12,10 +12,13 @@ background: black; width: 100%; height: 100vh;
 `
 
 const H1Style = styled.h1 `
-	color: white;
+	color: #eee;
   position: absolute;
   left: 150px;
   top: 300px;
+  font-family: Proxima Nova, Sans Serif;
+  font-weight: 200;
+  z-index: 1000;
 
 
 `
@@ -27,6 +30,7 @@ const OutterWrap = styled.div `
 `
 
 const Video = styled.video `
+  width: 100vw;
   background-color: RGB(14 , 14, 14);
   opacity: .7;
  
