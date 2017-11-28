@@ -12,17 +12,6 @@ const HeroStyle = styled.div`
 
 `
 
-const H1Style = styled.h1 `
-	color:white;
-
-
-`
-
-// const HeroImg = styled.img `
-//   backgroundImage 
-
-// `
-
 export default class Home extends Component {
 
   // constructor (props) {

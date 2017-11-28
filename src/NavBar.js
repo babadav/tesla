@@ -8,19 +8,25 @@ const NavStyle = styled.nav`
   background-color: rgb(34, 34, 34);
   display: flex;
   justify-content: space-between;
-
-
-  
-
 `
 
 const UlStyle = styled.ul`
+  > a {
+    all: unset;color:
+    
+    RGBA(152, 157, 157, 1.00);
+
+ }
   display: flex;
   justify-content: space-around;
   width: 30%;
+  font-family: Proxima Nova, Sans Serif;
+  font-family: 200;
   list-style-type: none;
   text-decoration: none;
-  color: RGBA(152, 157, 157, 1.00);
+
+  
+  
   
 
 `
@@ -29,9 +35,10 @@ const LogoStyle = styled.div`
     height: 100%;
     align-self: center;
     margin-right: 5%;
-
+    
 
 `
+
 
 export default class NavBar extends Component {
 
