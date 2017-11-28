@@ -31,7 +31,6 @@ export default class Home extends Component {
   render() {
     return (
     	<div>
-        <NavBar />
 	    	<HeroStyle>
 	    	<H1Style>Hello World</H1Style>
 	    	</HeroStyle>
