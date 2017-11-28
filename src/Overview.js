@@ -16,7 +16,6 @@ export default class Overview extends Component {
     console.log(this.props);
     return (
     	<div>
-        <h1>{this.props.match.params.model.replace('-', ' ')}</h1>
         <Hero />
         <h3>This is the summary that will be replaced</h3>
         <ThreeD />

@@ -1,4 +1,5 @@
-let Info =  {
+ 
+export let Info  = {
 	'Model S':{
 		name:'Model S',
 		home: {

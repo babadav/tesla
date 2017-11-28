@@ -4,9 +4,12 @@ import Hero from './Hero';
 import Home from './Home';
 import NavBar from './NavBar';
 import Overview from './Overview';
-import Info from './Info';
+import {Info} from './Info';
 
+const OverviewWrapper = (data) => (
 
+  <Overview data={Info[data.match.params.model.replace('-',' ')]}/>
+)
 
 export default class App extends Component {
 
@@ -25,7 +28,7 @@ export default class App extends Component {
             <NavBar/>
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/overview/:model" render={ (props) => (<Overview {...this.props} {...props} />) } />
+              <Route path="/overview/:model" render={(props) => OverviewWrapper(props)} />
             </Switch>
          </div>
       </BrowserRouter>
