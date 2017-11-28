@@ -23,8 +23,6 @@ export default class App extends Component {
         <NavBar />
 
         <Home />
-
-        <Home/>
         <Overview />
       </div>
     );

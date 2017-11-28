@@ -6,8 +6,9 @@ import CarSelection from './CarSelection';
 import Hero from './Hero';
 
 const HeroStyle = styled.div`
-	
-background: black; width: 100%; height: 100vh;
+	width: 100%; 
+  height: 100vh;
+  
 
 `
 
@@ -16,6 +17,11 @@ const H1Style = styled.h1 `
 
 
 `
+
+// const HeroImg = styled.img `
+//   backgroundImage 
+
+// `
 
 export default class Home extends Component {
 
@@ -30,9 +36,7 @@ export default class Home extends Component {
   render() {
     return (
     	<div>
-	    	<HeroStyle>
-	    	<H1Style>Hello World</H1Style>
-	    	</HeroStyle>
+        <Hero />
 	    	<Features />
 	    	<CarSelection />
     	</div>
