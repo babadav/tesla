@@ -47,9 +47,9 @@ export default class NavBar extends Component {
     return (
     	<NavStyle>
         <UlStyle>
-          <NavLink to='../overview/ModelS' exact><li>Model S</li></NavLink>
-          <NavLink to='../overview/ModelX' exact><li>Model X</li></NavLink>
-          <NavLink to='../overview/Model3' exact><li>Model 3</li></NavLink>
+          <NavLink to='../overview/Model-S' exact><li>Model S</li></NavLink>
+          <NavLink to='../overview/Model-X' exact><li>Model X</li></NavLink>
+          <NavLink to='../overview/Model-3' exact><li>Model 3</li></NavLink>
           <NavLink to='../overview/Roadster' exact><li>Roadster</li></NavLink>
         </UlStyle>
         <LogoStyle className="logo">

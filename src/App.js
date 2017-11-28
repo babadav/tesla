@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Home from './Home';
 import NavBar from './NavBar';
 import Overview from './Overview';
+import Info from './Info';
 
 
 
@@ -19,15 +20,20 @@ export default class App extends Component {
 
   render() {
     return (
-        <BrowserRouter className="App">
+        <BrowserRouter className="Ap1p">
           <div className="App__body">
             <NavBar/>
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/overview" component={ Overview } />
+              <Route path="/overview/:model" render={ (props) => (<Overview {...this.props} {...props} />) } />
             </Switch>
          </div>
       </BrowserRouter>
     );
   }
 }
+
+
+// <Route path={`${this.props.match.url}view/:postId`} render={(props) => (
+//     <Single {...this.props} {...props} />
+// )} />

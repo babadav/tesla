@@ -3,21 +3,20 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Hero from './Hero.js';
 import ThreeD from './ThreeD';
 import Features from './Features';
+import Info from './Info';
 
 
-export default class CarPage extends Component {
+export default class Overview extends Component {
 
-  // constructor (props) {
-    // super(props);
-    // this.state = {
-    //   id: 0
-    // }
-    // this.setDetail = this.setDetail.bind(this);
-  // }
+  constructor (props) {
+    super(props);
+  }
 
   render() {
+    console.log(this.props);
     return (
     	<div>
+        <h1>{this.props.match.params.model.replace('-', ' ')}</h1>
         <Hero />
         <h3>This is the summary that will be replaced</h3>
         <ThreeD />
