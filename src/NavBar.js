@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 
 const NavStyle = styled.nav`
@@ -46,16 +47,18 @@ export default class NavBar extends Component {
     return (
     	<NavStyle>
         <UlStyle>
-          <li><a>Model S</a></li>
-          <li><a>Model X</a></li>
-          <li><a>Model 3</a></li>
-          <li><a>Roadster</a></li>
+          <NavLink to='../overview/ModelS' exact><li>Model S</li></NavLink>
+          <NavLink to='../overview/ModelX' exact><li>Model X</li></NavLink>
+          <NavLink to='../overview/Model3' exact><li>Model 3</li></NavLink>
+          <NavLink to='../overview/Roadster' exact><li>Roadster</li></NavLink>
         </UlStyle>
         <LogoStyle className="logo">
-          <img src="/img/logo.svg" />
+          <NavLink to='../'><img src="/img/logo.svg" /></NavLink>
         </LogoStyle>
       </NavStyle>
       
     );
   }
 }
+
+// 
