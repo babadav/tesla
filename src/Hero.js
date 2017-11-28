@@ -23,7 +23,7 @@ const H1Style = styled.h1 `
 
 `
 const OutterWrap = styled.div `
-  background-color: RGB(14 , 14, 14)
+  background-color: RGB(14 , 14, 14);
  
 
 
