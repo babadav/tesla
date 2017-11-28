@@ -12,7 +12,24 @@ background: black; width: 100%; height: 100vh;
 `
 
 const H1Style = styled.h1 `
-	color:white;
+	color: white;
+  position: absolute;
+  left: 150px;
+  top: 300px;
+
+
+`
+const OutterWrap = styled.div `
+  background-color: RGB(14 , 14, 14)
+ 
+
+
+`
+
+const Video = styled.video `
+  background-color: RGB(14 , 14, 14);
+  opacity: .7;
+ 
 
 
 `
@@ -29,11 +46,13 @@ export default class Hero extends Component {
 
   render() {
     return (
-    	<div>
-	    	<HeroStyle>
-	    	<H1Style>Hello World</H1Style>
-	    	</HeroStyle>
-    	</div>
+    	<OutterWrap>
+        <H1Style>Sports Series</H1Style>
+        <Video autoPlay="true" loop muted>
+            <source src='https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808' type="video/mp4" />
+        </Video>
+
+    	</OutterWrap>
     );
   }
 }
