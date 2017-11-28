@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Features from './Features';
 import CarSelection from './CarSelection';
 import Hero from './Hero';
-import NavBar from './NavBar';
 
 const HeroStyle = styled.div`
 	
@@ -31,7 +30,6 @@ export default class Home extends Component {
   render() {
     return (
     	<div>
-        <NavBar />
 	    	<HeroStyle>
 	    	<H1Style>Hello World</H1Style>
 	    	</HeroStyle>
