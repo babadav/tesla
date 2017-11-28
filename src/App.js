@@ -18,11 +18,15 @@ export default class App extends Component {
 
   render() {
     return (
-    	<div>
-        <NavBar />
-        <Home/>
-        <Overview />
-      </div>
+        <BrowserRouter className="App">
+          <div className="App__body">
+            <NavBar/>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/overview" component={ Overview } />
+            </Switch>
+         </div>
+      </BrowserRouter>
     );
   }
 }
