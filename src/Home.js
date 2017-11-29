@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Features from './Features';
 import CarSelection from './CarSelection';
 import Hero from './Hero';
-import {Info} from './Info';
 
 const HeroStyle = styled.div`
   width: 100%; 
@@ -17,16 +16,17 @@ export default class Home extends Component {
 
   constructor (props) {
     super(props);
-    this.state = Info;
   }
 
   render() {
     return (
       <div>
-        <Hero homeVideo={this.state.Home.video} />
-        <Features data={this.state.Home.modules} />
-        <CarSelection data = {this.state} />
+        <Hero homeVideo={this.props.video} />
+        <Features data={this.props.features} />
+        <CarSelection data= {this.props.select}  />
       </div>
     );
   }
 }
+
+        

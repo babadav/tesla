@@ -51,13 +51,16 @@ export default class NavBar extends Component {
   // }
 
   render() {
+    let car = null;
+    this.props.car ? car=`../${this.props.car}` : car=''
     return (
       <NavStyle>
         <UlStyle>
-          <NavLink to='../overview/Model-S' exact><li>Model S</li></NavLink>
-          <NavLink to='../overview/Model-X' exact><li>Model X</li></NavLink>
-          <NavLink to='../overview/Model-3' exact><li>Model 3</li></NavLink>
-          <NavLink to='../overview/Roadster' exact><li>Roadster</li></NavLink>
+          {this.props.items.map(link =>
+            <NavLink key={link.id} to={car + link.to} exact>
+              {link.name}
+            </NavLink>
+          )}
         </UlStyle>
         <LogoStyle className="logo">
           <NavLink to='../'><img src="/img/logo.svg" /></NavLink>
@@ -68,4 +71,14 @@ export default class NavBar extends Component {
   }
 }
 
-// 
+
+//     <NavLink to='../Model-S' exact><li>Model S</li></NavLink>
+//          <NavLink to='../Model-X' exact><li>Model X</li></NavLink>
+//          <NavLink to='../Model-3' exact><li>Model 3</li></NavLink>
+//          <NavLink to='../Roadster' exact><li>Roadster</li></NavLink>
+
+
+
+
+
+
