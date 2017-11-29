@@ -13,10 +13,11 @@ export default class Overview extends Component {
   }
 
   render() {
+    console.log(this.props.page);
     return (
     	<div>
         <Hero image={this.props.data.hero} summary={this.props.data.summary}/>
-        <ThreeD image={this.props.data.threeD} />
+        <ThreeD image={this.props.data.threeD} style={this.props.page  ? { display:'block',} : {display : 'none',} } />
         <Features data={this.props.data.modules} name={this.props.data.name} />
       </div>
       
