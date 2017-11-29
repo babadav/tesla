@@ -201,7 +201,7 @@ export let Info  = {
 	'Roadster':{
 		name:'Roadster',
 		home: {
-			thumb: 'img/assets/roadster/thumb.jpg',
+			thumb: 'img/assets/roadster/thumb.png',
 			tagline: '',
 			image:'../img/assets/roadster/hero.jpg'
 		},
