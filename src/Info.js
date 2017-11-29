@@ -10,8 +10,12 @@ export let Info  = {
 		page: {
 			tagline: 'text for specific car',
 			summary: `Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.`,
-			hero: '../img/assets/model-s/red-profile.jpg',
+			hero:{
+				hero: '../img/assets/model-s/slider/red-profile.jpg',
+				video:'',
+			},
 			threeD: '../img/rotate/s/',
+			
 			modules: [
 				{	
 					id:0,
@@ -74,7 +78,10 @@ export let Info  = {
 		page: {
 			tagline: '',
 			summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
-			hero: 'img/assets/model-x/main-slideshow/city.jpg',
+			hero: {
+				hero: '../img/assets/model-x/hero.jpg',
+				video:'',
+			},
 			threeD: '../img/rotate/x/',
 			modules: [
 				{	
@@ -86,7 +93,7 @@ export let Info  = {
 				{	
 					id:1,
 					headline: 'The Safest SUV Ever',
-					image: '../img/assets/model-x/saftey.jpg',
+					image: '../img/assets/model-x/main-slideshow/ski.jpg',
 					text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. Forward-facing radar see through heavy rain, fog, dust, and beyond the vehicle ahead—helping to prevent accidents by providing simultaneous visibility in every direction. Model X is the first SUV ever to achieve a 5-star safety rating in every category and sub-category, the lowest probability of occupant injury, and a rollover risk half that of any SUV on the road.`,
 				},
 				{	
@@ -98,7 +105,7 @@ export let Info  = {
 				{	
 					id:3,
 					headline: 'Longest Range',
-					image: '../img/assets/model-x/main-slideshow/rear-view.jpg',
+					image: '../img/assets/model-x/rear-view.jpg',
 					text: `Capable of traveling up to 295 miles on a single charge, with unlimited access to Tesla's global charging network, you can get anywhere in Model X.`,
 				},
 			],
@@ -144,7 +151,10 @@ export let Info  = {
 		page: {
 			tagline: '',
 			summary: `Model S is our flagship, premium sedan with more range, acceleration, displays and customization options. It’s the safest car in its class with unlimited Supercharging for the duration of ownership when referred by an owner.Model 3 is a smaller, simpler, more affordable electric car. Although it is our newest vehicle, Model 3 is not “Version 3” or the most advanced Tesla. Like Model S, it is designed to be the safest car in its class.`,
-			hero: '../img/assets/model-3/hero.jpg',
+			hero:{
+				hero: '../img/assets/model-3/hero.jpg',
+				video:'../img/assets/model-3/hero.mp4',
+			},
 			threeD: '../img/rotate/3/',
 			modules: [
 				{	
@@ -208,7 +218,10 @@ export let Info  = {
 		page: {
 			tagline: '',
 			summary: `Tesla Roadster2019 Tesla Roadster shownCar and DriverCar Buying ServiceLocal dealer pricing not available for this vehicle.The original Tesla Roadster put the all-electric automaker on the map, even if most Model S and Model X buyers don’t remember it. Touted to make its return to the lineup in 2020, the new Roadster picks up where the old model left off, and then some. Tesla claims a zero-to-60-mph time of 1.9 seconds and a top speed of more than 250 mph; all-wheel drive will be standard and a 200-kWh battery is said to provide 620 miles of range. `,
-			hero: 'img/assets/roadster/hero.jpg',
+			hero:{
+				video: '../img/assets/roadster/roadster.mp4',
+				hero: '../img/assets/roadster/hero.jpg',
+			},
 			threeD: '../img/rotate/roadster/',
 			modules: [
 				{
@@ -227,13 +240,7 @@ export let Info  = {
 					id:2,
 					headline: `Designed for Performance and Aero Efficiency`,
 					image: '../img/assets/roadster/rear.jpg',
-					text: 'text for module',
-				},
-				{
-					id:3,
-					headline: '',
-					image: '../img/assets/roadster/rear.jpg',
-					text: 'text for module',
+					text: 'As an all-electric supercar, Roadster maximizes the potential of aerodynamic engineering—with record-setting performance and efficiency.',
 				},
 			],
 			specs: {

@@ -26,9 +26,12 @@ const OutterWrap = styled.div `
 
 const Video = styled.video `
   width: 100vw;
-  background-color: RGB(14 , 14, 14);
-  opacity: .7;
+  opacity: .8;
  
+`
+const Video2 = styled.video `
+  width: 100vw;
+  opacity: .9;
 `
 
 export default class Hero extends Component {
@@ -46,16 +49,22 @@ export default class Hero extends Component {
       return (
         <OutterWrap>
           <H1Style>Sports Series</H1Style>
-          <Video autoPlay="true" loop muted>
-              <source src={this.props.homeVideo} type="video/mp4" />
+          <Video autoPlay="true" loop muted src={this.props.homeVideo} type="video/mp4">
           </Video>
 
         </OutterWrap>
       );
+    } else if(this.props.image.video) {
+      return(
+        <OutterWrap>
+         <Video2 autoPlay="true" loop muted src={this.props.image.video} type="video/mp4" >
+          </Video2>
+        </OutterWrap>
+      )
     } else {
       return(
-        <h1>Hello World</h1>
-      )
+        <img src={this.props.image.hero} />
+      ) 
     }
   }
 }

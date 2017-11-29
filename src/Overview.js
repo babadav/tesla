@@ -16,9 +16,8 @@ export default class Overview extends Component {
     console.log(this.props.data.page.modules);
     return (
     	<div>
-        <Hero />
-        <h3>This is the summary that will be replaced</h3>
-        <ThreeD />
+        <Hero image={this.props.data.page.hero}/>
+        <ThreeD image={this.props.data.page.threeD} />
         <Features data={this.props.data.page.modules} name={this.props.data.name} />
       </div>
       
