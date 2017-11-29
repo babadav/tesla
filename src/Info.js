@@ -3,13 +3,14 @@ export let Info  = {
 	'Model S':{
 		name:'Model S',
 		home: {
-			thumb: 'img/assets/model-s/red-profile.jpg',
+			thumb: '../img/assets/model-s/slider/red-profile.jpg',
 			tagline: 'Model S',
+			image:'../img/assets/model-s/slider/red-profile.jpg' 
 		},
 		page: {
 			tagline: 'text for specific car',
 			summary: `Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.`,
-			hero: 'img/assets/model-s/red-profile.jpg',
+			hero: '../img/assets/model-s/red-profile.jpg',
 			threeD: '3d image extension',
 			modules: [
 				{	
@@ -65,6 +66,7 @@ export let Info  = {
 		home: {
 			thumb: 'img/assets/main-slideshow/white-cruise.jpg',
 			tagline: 'Model X',
+			image:'../img/assets/model-s/slider/red-profile.jpg'
 		},
 		page: {
 			tagline: '',
@@ -130,6 +132,7 @@ export let Info  = {
 		home: {
 			thumb: 'img/assets/model-3/side-profile.png',
 			tagline: '',
+			image:'../img/assets/model-s/slider/red-profile.jpg'
 		},
 		page: {
 			tagline: '',
@@ -195,6 +198,7 @@ export let Info  = {
 		home: {
 			thumb: 'img/assets/roadster/top.jpg',
 			tagline: '',
+			image:'../img/assets/model-s/slider/red-profile.jpg'
 		},
 		page: {
 			tagline: '',

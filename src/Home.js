@@ -15,20 +15,17 @@ const HeroStyle = styled.div`
 
 export default class Home extends Component {
 
-  // constructor (props) {
-    // super(props);
-    // this.state = {
-    //   id: 0
-    // }
-    // this.setDetail = this.setDetail.bind(this);
-  // }
+  constructor (props) {
+    super(props);
+    this.state = Info;
+  }
 
   render() {
     return (
       <div>
         <Hero />
         <Features />
-        <CarSelection />
+        <CarSelection data = {this.state} />
       </div>
     );
   }

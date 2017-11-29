@@ -13,7 +13,7 @@ export default class Car extends Component {
 
   		<div> 
   			<h1>{this.props.name}</h1>
-
+        <img src={this.props.source} />
   		 </div>
   	)
   }

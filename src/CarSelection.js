@@ -6,48 +6,26 @@ export default class CarSelection extends Component {
 
   constructor (props) {
   super(props);
-  this.state = {data: [
-    {
-    id: 0,
-    name: '570S Coupe',
-    image:'this is the image',
-    },
-    {
-    id: 1,
-    name: '570S Spider',
-    image:'this is the image',
-    },
-    {
-    id: 2,
-    name: '570gt',
-    image:'this is the image',
-    },
-    {
-    id: 3,
-    name: '570C',
-    image:'this is the image',
-    },
-
-
-  ],carChoice:0 }
-    this.changeCar = this.changeCar.bind(this);
+  this.state = {carChoice:0, car:this.props.data['Model S']}
+  this.changeCar = this.changeCar.bind(this);
   }
   changeCar(value) {
     this.setState({
-      carChoice: value,
+      car: this.props.data[value],
     })
   }
   render() {
-
+    console.log(this.props.data['Model S'].name)
     return (
       <div>
         <div className = 'buttons'>
-          <button onClick = {()=>{this.changeCar(0)}}>Click</button>
-          <button onClick = {()=>{this.changeCar(1)}}>Click</button>
-          <button onClick = {()=>{this.changeCar(2)}}>Click</button>
-          <button onClick = {()=>{this.changeCar(3)}}>Click</button>
+          <img src={`${this.props.data['Model 3'].home.thumb}`} />
+          <button onClick = {()=>{this.changeCar('Model S')}}>Click</button>
+          <button onClick = {()=>{this.changeCar('Model X')}}>Click</button>
+          <button onClick = {()=>{this.changeCar('Roadster')}}>Click</button>
+          <button onClick = {()=>{this.changeCar('Model 3')}}>Click</button>
         </div>
-        <Car {...this.state.data[this.state.carChoice]} />
+        <Car name={this.state.car.name} source={this.state.car.home.image} />
         </div>
       
     );
