@@ -7,6 +7,14 @@ const Num = styled.h1 `
 
 `
 export default class SpecCounter extends Component {
+	  constructor (props) {
+	    super(props);
+	    this.state = {
+	    	speed:0,
+	    	tor:0,
+	    	zero60:0,
+	    },
+	  }
 
 	render() {
 		return(
