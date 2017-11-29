@@ -24,7 +24,7 @@ export default class Home extends Component {
     return (
       <div>
         <Hero />
-        <Features />
+        <Features data={this.state.Home.modules} />
         <CarSelection data = {this.state} />
       </div>
     );

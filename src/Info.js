@@ -268,4 +268,35 @@ export let Info  = {
 
 		}
 	},
+	'Home': 
+	{
+
+		modules:[
+			{
+				id:0,
+				headline: 'Glass Roof',
+				image: '../img/assets/roadster/top-open.jpg',
+				text: 'A lightweight, removable Glass Roof stores in the trunk for an open-air, convertible driving experience.',
+			},
+			{
+				id:1,
+				headline: 'Interior',
+				image: '../img/assets/roadster/interior.jpg',
+				text: `The first supercar to set every performance record and still fit seating for four.`,
+			},
+			{
+				id:2,
+				headline: `Designed for Performance and Aero Efficiency`,
+				image: '../img/assets/roadster/rear.jpg',
+				text: 'text for module',
+			},
+			{
+				id:3,
+				headline: '',
+				image: '../img/assets/roadster/rear.jpg',
+				text: 'text for module',
+			},
+		]
+	}
+	
 }
