@@ -14,16 +14,18 @@ export default class Feature extends Component {
 		if(this.props.id % 2) {
 			return (
 				<div>
-					<h1>{this.props.id}</h1>
-					<div>{this.props.image}</div>
+					<h1>{this.props.headline}</h1>
+					<h2>{this.props.text}</h2>
+					<div><img src={this.props.image} /></div>
 			  	</div>
 			  
 			);
 		} else {
 			return (
 			<div>
-				<div>{this.props.image}</div>
-				<h1>{this.props.id}</h1>
+				<div><img src={this.props.image} /></div>
+				<h1>{this.props.headline}</h1>
+				<h2>{this.props.text}</h2>
 		  	</div>
 		  
 		);
