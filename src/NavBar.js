@@ -51,11 +51,13 @@ export default class NavBar extends Component {
   // }
 
   render() {
+    let car = null;
+    this.props.car ? car=`../${this.props.car}` : car=''
     return (
       <NavStyle>
         <UlStyle>
           {this.props.items.map(link =>
-            <NavLink key={link.id} to={link.to} exact>
+            <NavLink key={link.id} to={car + link.to} exact>
               {link.name}
             </NavLink>
           )}

@@ -1,8 +1,8 @@
  
 export let Info  = {
-	'Model S':{
-		name:'Model S',
-		page: {
+	Cars:[
+		{
+			name:'Model S',
 			tagline: 'text for specific car',
 			summary: `Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.`,
 			hero:{
@@ -32,40 +32,103 @@ export let Info  = {
 				},
 			],
 			specs: {
-				specsHero: 'img link',
-				performance: {
-					maxSpeed: '225 km/h (140 mph)',
-					zero100:'5.8s',
-					zero200:'',
-					maxPwr:'382 hp @ 6,850 rpm (285 kW)',
-					maxTor:'325 lb·ft (441 N·m)',
+				counter: {
+					speed:225,
+					zero60:2.8,
+					tor:325,
 				},
-				engine: {
-					engineCapacity:'',
-					type:'Electric',
-					tech:'',
-				},
-				braking: {
-					twoTo0: '133m (436FT)',
-					oneTo0:'33M (108FT)'
-				},
-				efficiency: {
-					co2: '',
-					pwrToWeight:''
-				},
-				weight: {
-					dinWeight:'2,027 kg (4,469 lb)',
-					weightDistribution:'(F/R) 42%/58%',
-					dryWeight: '1,400KG (1,350KG)'
-				}
-			},
-
-
-		}
-	},
-	'Model X':{
-		name:'Model X',
-		page: {
+				specsHero: '../img/assets/model-s/slider/red-profile.jpg',
+				specList:[
+					{
+						name:'performance',
+						list:[
+							{
+								name: 'MAXIMUM SPEED',
+								value:'225 km/h (140 mph)'
+							},
+							{
+								name:'0-100KPH (62MPH)',
+								value:'5.8s'
+							},
+							{
+								name:'0-200KPH (124MPH)',
+								value:'',
+							},
+							{
+								name:'MAXIMUM POWER',
+								value:'382 hp @ 6,850 rpm (285 kW)',
+							},
+							{
+								name:'MAXIMUM TORQUE',
+								value:'325 lb·ft (441 N·m)',
+							},
+						],
+					},
+					{
+						name:'engine',
+						list:[
+							{
+								name: 'ENGINE CAPACITY',
+								value:''
+							},
+							{
+								name:'TYPE',
+								value:'Electric'
+							},
+							{
+								name:'TECHNOLOGY',
+								value:'',
+							},
+						],
+					},
+					{
+						name:'braking',
+						list:[
+							{
+								name: '200-0KPH (124-0MPH)',
+								value:'133m (436FT)'
+							},
+							{
+								name:'100-0KPH (62-0MPH)',
+								value:'33M (108FT)'
+							},
+						],
+					},
+					{
+						name:'efficiency',
+						list:[
+							{
+								name: 'CO2',
+								value:''
+							},
+							{
+								name:'POWER TO WEIGHT',
+								value:''
+							},
+						],
+					},
+					{
+						name:'weight',
+						list:[
+							{
+								name: 'DIN WEIGHT',
+								value:'2,027 kg (4,469 lb)'
+							},
+							{
+								name:'DRY WEIGHT',
+								value:'1,400KG (1,350KG)'
+							},
+							{
+								name:'WEIGHT DISTRIBUTION',
+								value:'(F/R) 42%/58%'
+							},
+						],
+					},
+				],
+			}
+		},
+		{	
+			name:'Model X',
 			tagline: '',
 			summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
 			hero: {
@@ -100,40 +163,103 @@ export let Info  = {
 				},
 			],
 			specs: {
+				counter: {
+					speed:130,
+					zero60:3.3,
+					tor:387,
+				},
 				specsHero: 'img/assets/model-x/main-slideshow/white-cruise.jpg',
-				performance: {
-					maxSpeed: '130 mph (210 km/h)',
-					zero100:' 6.2s',
-					zero200:'',
-					maxPwr:'259 hp (193 kW)',
-					maxTor:'387 to 485 lb-ft',
-				},
-				engine: {
-					engineCapacity:'',
-					type:'Electric',
-					tech:'',
-				},
-				braking: {
-					twoTo0: '133m (436FT)',
-					oneTo0:'33M (108FT)'
-				},
-				efficiency: {
-					co2: '0',
-					pwrToWeight:'5,000 pounds (2,300 kg)'
-				},
-				weight: {
-					dinWeight:'5,267 to 5,377 lbs',
-					weightDistribution:'100D - Front 50%, Rear 50%',
-					dryWeight: ''
-				}
+				specList:[
+					{
+						name:'performance',
+						list:[
+							{
+								name: 'MAXIMUM SPEED',
+								value:'130 mph (210 km/h)'
+							},
+							{
+								name:'0-100KPH (62MPH)',
+								value:' 3.3s'
+							},
+							{
+								name:'0-200KPH (124MPH)',
+								value:'',
+							},
+							{
+								name:'MAXIMUM POWER',
+								value:'259 hp (193 kW)',
+							},
+							{
+								name:'MAXIMUM TORQUE',
+								value:'387 to 485 lb-ft',
+							},
+						],
+					},
+					{
+						name:'engine',
+						list:[
+							{
+								name: 'ENGINE CAPACITY',
+								value:''
+							},
+							{
+								name:'TYPE',
+								value:'Electric'
+							},
+							{
+								name:'TECHNOLOGY',
+								value:'',
+							},
+						],
+					},
+					{
+						name:'braking',
+						list:[
+							{
+								name: '200-0KPH (124-0MPH)',
+								value:'133m (436FT)'
+							},
+							{
+								name:'100-0KPH (62-0MPH)',
+								value:'33M (108FT)'
+							},
+						],
+					},
+					{
+						name:'efficiency',
+						list:[
+							{
+								name: 'CO2',
+								value:'0'
+							},
+							{
+								name:'POWER TO WEIGHT',
+								value:'5,000 pounds (2,300 kg)'
+							},
+						],
+					},
+					{
+						name:'weight',
+						list:[
+							{
+								name: 'DIN WEIGHT',
+								value:'5,267 to 5,377 lbs'
+							},
+							{
+								name:'DRY WEIGHT',
+								value:''
+							},
+							{
+								name:'WEIGHT DISTRIBUTION',
+								value:'100D - Front 50%, Rear 50%'
+							},
+						],
+					},
+				],
 			},
-
-
-		}
-	},
-	'Model 3':{
-		name:'Model 3',
-		page: {
+		},
+		{
+			name:'Model 3',
 			tagline: '',
 			summary: `Model S is our flagship, premium sedan with more range, acceleration, displays and customization options. It’s the safest car in its class with unlimited Supercharging for the duration of ownership when referred by an owner.Model 3 is a smaller, simpler, more affordable electric car. Although it is our newest vehicle, Model 3 is not “Version 3” or the most advanced Tesla. Like Model S, it is designed to be the safest car in its class.`,
 			hero:{
@@ -162,40 +288,104 @@ export let Info  = {
 				},
 			],
 			specs: {
+				counter: {
+					speed:140,
+					zero60:5.6,
+					tor:713,
+				},
 				specsHero: 'img/assets/model-3/red-city.jpg',
-				performance: {
-					maxSpeed: '140 mph (225 km/h)',
-					zero100:'5.6s',
-					zero200:'',
-					maxPwr:'258 hp (192 kW)',
-					maxTor:'713 lb/ft ',
-				},
-				engine: {
-					engineCapacity:'75 kWh',
-					type:'Electric',
-					tech:'',
-				},
-				braking: {
-					twoTo0: '133m (436FT)',
-					oneTo0:'33M (108FT)'
-				},
-				efficiency: {
-					co2: '0',
-					pwrToWeight:'379  bhp per ton'
-				},
-				weight: {
-					dinWeight:'2039KG (4495 lbs)',
-					weightDistribution:'(F/R) 47%/53%',
-					dryWeight: ''
-				}
+				specList:[
+					{
+						name:'performance',
+						list:[
+							{
+								name: 'MAXIMUM SPEED',
+								value:'140 mph (225 km/h)'
+							},
+							{
+								name:'0-100KPH (62MPH)',
+								value:'5.6s'
+							},
+							{
+								name:'0-200KPH (124MPH)',
+								value:'',
+							},
+							{
+								name:'MAXIMUM POWER',
+								value:'258 hp (192 kW)',
+							},
+							{
+								name:'MAXIMUM TORQUE',
+								value:'713 lb/ft ',
+							},
+						],
+					},
+					{
+						name:'engine',
+						list:[
+							{
+								name: 'ENGINE CAPACITY',
+								value:'75 kWh'
+							},
+							{
+								name:'TYPE',
+								value:'Electric'
+							},
+							{
+								name:'TECHNOLOGY',
+								value:'',
+							},
+						],
+					},
+					{
+						name:'braking',
+						list:[
+							{
+								name: '200-0KPH (124-0MPH)',
+								value:'133m (436FT)'
+							},
+							{
+								name:'100-0KPH (62-0MPH)',
+								value:'33M (108FT)'
+							},
+						],
+					},
+					{
+						name:'efficiency',
+						list:[
+							{
+								name: 'CO2',
+								value:'0'
+							},
+							{
+								name:'POWER TO WEIGHT',
+								value:'379  bhp per ton'
+							},
+						],
+					},
+					{
+						name:'weight',
+						list:[
+							{
+								name: 'DIN WEIGHT',
+								value:'2039KG (4495 lbs)'
+							},
+							{
+								name:'DRY WEIGHT',
+								value:''
+							},
+							{
+								name:'WEIGHT DISTRIBUTION',
+								value:'(F/R) 47%/53%'
+							},
+						],
+					},
+
+				],
 			},
-
-
-		}
-	},
-	'Roadster':{
-		name:'Roadster',
-		page: {
+		},
+		{
+			name:'Roadster',
 			tagline: '',
 			summary: `Tesla Roadster2019 Tesla Roadster shownCar and DriverCar Buying ServiceLocal dealer pricing not available for this vehicle.The original Tesla Roadster put the all-electric automaker on the map, even if most Model S and Model X buyers don’t remember it. Touted to make its return to the lineup in 2020, the new Roadster picks up where the old model left off, and then some. Tesla claims a zero-to-60-mph time of 1.9 seconds and a top speed of more than 250 mph; all-wheel drive will be standard and a 200-kWh battery is said to provide 620 miles of range. `,
 			hero:{
@@ -224,37 +414,102 @@ export let Info  = {
 				},
 			],
 			specs: {
-				specsHero: 'img/assets/roadster/rear.jpg',
-				performance: {
-					maxSpeed: 'Over 250 mph',
-					zero100:'3.4s',
-					zero200:'',
-					maxPwr:'',
-					maxTor:'10,000 Nm',
+				counter: {
+					speed:250,
+					zero60:1.9,
+					tor:10000,
 				},
-				engine: {
-					engineCapacity:'3,799CC',
-					type:'Electric',
-					tech:'',
-				},
-				braking: {
-					twoTo0: '133m (436FT)',
-					oneTo0:'33M (108FT)'
-				},
-				efficiency: {
-					co2: '249G/KM',
-					pwrToWeight:'434PS (428 BHP)'
-				},
-				weight: {
-					dinWeight:'1,495KG (3,296LB)',
-					weightDistribution:'(F/R) 42%/58%',
-					dryWeight: '1,400KG (1,350KG)'
-				}
+				specsHero: '../img/assets/roadster/hero.jpg',
+				specList:[
+					{
+						name:'performance',
+						list:[
+							{
+								name: 'MAXIMUM SPEED',
+								value:'Over 250 mph'
+							},
+							{
+								name:'0-100KPH (62MPH)',
+								value:'3.2s'
+							},
+							{
+								name:'0-200KPH (124MPH)',
+								value:'',
+							},
+							{
+								name:'MAXIMUM POWER',
+								value:'',
+							},
+							{
+								name:'MAXIMUM TORQUE',
+								value:'10,000 Nm',
+							},
+						],
+					},
+					{
+						name:'engine',
+						list:[
+							{
+								name: 'ENGINE CAPACITY',
+								value:'75 kWh'
+							},
+							{
+								name:'TYPE',
+								value:'Electric'
+							},
+							{
+								name:'TECHNOLOGY',
+								value:'',
+							},
+						],
+					},
+					{
+						name:'braking',
+						list:[
+							{
+								name: '200-0KPH (124-0MPH)',
+								value:'133m (436FT)'
+							},
+							{
+								name:'100-0KPH (62-0MPH)',
+								value:'33M (108FT)'
+							},
+						],
+					},
+					{
+						name:'efficiency',
+						list:[
+							{
+								name: 'CO2',
+								value:'249G/KM'
+							},
+							{
+								name:'POWER TO WEIGHT',
+								value:'434PS (428 BHP)'
+							},
+						],
+					},
+					{
+						name:'weight',
+						list:[
+							{
+								name: 'DIN WEIGHT',
+								value:'1,495KG (3,296LB)'
+							},
+							{
+								name:'DRY WEIGHT',
+								value:'1,400KG (1,350KG)'
+							},
+							{
+								name:'WEIGHT DISTRIBUTION',
+								value:'(F/R) 42%/58%'
+							},
+						],
+					},
+				],
 			},
-
-
-		}
-	},
+		},
+	],
 	'Home': 
 	{
 		video:'https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808',
@@ -282,24 +537,6 @@ export let Info  = {
 				headline: '',
 				image: '../img/assets/roadster/rear.jpg',
 				text: 'text for module',
-			},
-		],
-		nav:[
-			{
-				to:'../Model-S',
-				name:'Model S'
-			},
-			{
-				to:'../Model-X',
-				name:'Model X'
-			},
-			{
-				to:'../Model-3',
-				name:'Model 3'
-			},
-			{
-				to:'../Roadster',
-				name:'Roadster'
 			},
 		],
 		select:[
@@ -332,6 +569,48 @@ export let Info  = {
 				name:'Roadster',
 			},
 
+		],
+	},
+	Nav: {
+		home:[
+			{
+				to:'../Model-S/Overview',
+				name:'Model S'
+			},
+			{
+				to:'../Model-X/Overview',
+				name:'Model X'
+			},
+			{
+				to:'../Model-3/Overview',
+				name:'Model 3'
+			},
+			{
+				to:'../Roadster/Overview',
+				name:'Roadster'
+			},
+		],
+		cars: [
+			{
+				to:'../../',
+				name:'Home'
+			},
+			{
+				to:'/Overview',
+				name:'Overview'
+			},
+			{
+				to:'/Specs',
+				name:'Specifications'
+			},
+			{
+				to:'/Interior',
+				name:'Interior'
+			},
+			{
+				to:'/Design',
+				name:'Design'
+			},
 		],
 	}
 	
