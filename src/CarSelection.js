@@ -11,6 +11,8 @@ const ThumbStyle = styled.img`
 
 const CarSelectionWrap = styled.div`
   display: flex;
+  width: 100%;
+  justify-content: center;
 
 `
 
