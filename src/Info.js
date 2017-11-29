@@ -60,7 +60,7 @@ export let Info  = {
 
 		}
 	},
-	'ModelX':{
+	'Model X':{
 		name:'Model X',
 		home: {
 			thumb: 'img/assets/main-slideshow/white-cruise.jpg',
