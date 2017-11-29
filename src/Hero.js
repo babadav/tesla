@@ -45,7 +45,7 @@ export default class Hero extends Component {
     if(this.props.homeVideo) {
       return (
         <OutterWrap>
-          <H1Style>Sports Series</H1Style>
+          <H1Style>Drive Green</H1Style>
           <Video autoPlay="true" loop muted>
               <source src={this.props.homeVideo} type="video/mp4" />
           </Video>
