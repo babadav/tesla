@@ -17,6 +17,11 @@ export default class CarWrappers extends Component {
 			return <Overview data={this.props.data} />
 		}else if(this.props.page == "Specs") {
 			return <Specs data={this.props.data.specs} />
+		}else if(this.props.page == "Design"){
+			return <Overview data={this.props.data.design} />
+		}
+		else if(this.props.page == "Interior"){
+			return <Overview data={this.props.data.interior} />
 		}
 		
 	}
