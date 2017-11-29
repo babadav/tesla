@@ -42,14 +42,20 @@ export default class Hero extends Component {
   // }
 
   render() {
-    return (
-      <OutterWrap>
-        <H1Style>Sports Series</H1Style>
-        <Video autoPlay="true" loop muted>
-            <source src='https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808' type="video/mp4" />
-        </Video>
+    if(this.props.homeVideo) {
+      return (
+        <OutterWrap>
+          <H1Style>Sports Series</H1Style>
+          <Video autoPlay="true" loop muted>
+              <source src='https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808' type="video/mp4" />
+          </Video>
 
-      </OutterWrap>
-    );
+        </OutterWrap>
+      );
+    } else {
+      return(
+        <h1>Hello World</h1>
+      )
+    }
   }
 }

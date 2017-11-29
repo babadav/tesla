@@ -23,7 +23,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Hero />
+        <Hero homeVideo={this.state.Home.video} />
         <Features data={this.state.Home.modules} />
         <CarSelection data = {this.state} />
       </div>
