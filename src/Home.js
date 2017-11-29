@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Features from './Features';
 import CarSelection from './CarSelection';
 import Hero from './Hero';
+import {Info} from './Info';
 
 const HeroStyle = styled.div`
   width: 100%; 
