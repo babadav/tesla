@@ -270,7 +270,7 @@ export let Info  = {
 	},
 	'Home': 
 	{
-
+		video:'https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808',
 		modules:[
 			{
 				id:0,
