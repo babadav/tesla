@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import styled from 'styled-components';
 import Car from './Car';
+
+const ThumbStyle = styled.img`
+  width: 20%; 
+  height: 50%;
+
+`
+
+const CarSelectionWrap = styled.div`
+  display: flex;
+
+`
+
+
+
 
 export default class CarSelection extends Component {
 
@@ -18,13 +33,12 @@ export default class CarSelection extends Component {
     console.log(this.props.data['Model S'].name)
     return (
       <div>
-        <div className = 'buttons'>
-          <img src={`${this.props.data['Model 3'].home.thumb}`} />
-          <button onClick = {()=>{this.changeCar('Model S')}}>Click</button>
-          <button onClick = {()=>{this.changeCar('Model X')}}>Click</button>
-          <button onClick = {()=>{this.changeCar('Roadster')}}>Click</button>
-          <button onClick = {()=>{this.changeCar('Model 3')}}>Click</button>
-        </div>
+        <CarSelectionWrap>
+          <ThumbStyle onClick = {()=>{this.changeCar('Model 3')}} src={`${this.props.data['Model 3'].home.thumb}`} />
+          <ThumbStyle onClick = {()=>{this.changeCar('Model S')}} src={`${this.props.data['Model S'].home.thumb}`} />
+          <ThumbStyle onClick = {()=>{this.changeCar('Model X')}} src={`${this.props.data['Model X'].home.thumb}`} />
+          <ThumbStyle onClick = {()=>{this.changeCar('Roadster')}} src={`${this.props.data['Roadster'].home.thumb}`} />
+        </CarSelectionWrap>
         <Car name={this.state.car.name} source={this.state.car.home.image} />
         </div>
       

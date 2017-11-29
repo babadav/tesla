@@ -3,7 +3,7 @@ export let Info  = {
 	'Model S':{
 		name:'Model S',
 		home: {
-			thumb: '../img/assets/model-s/slider/red-profile.jpg',
+			thumb: '../img/assets/model-s/thumb.png',
 			tagline: 'Model S',
 			image:'../img/assets/model-s/slider/red-profile.jpg' 
 		},
@@ -64,9 +64,9 @@ export let Info  = {
 	'Model X':{
 		name:'Model X',
 		home: {
-			thumb: 'img/assets/main-slideshow/white-cruise.jpg',
+			thumb: 'img/assets/model-x/thumb.png',
 			tagline: 'Model X',
-			image:'../img/assets/model-s/slider/red-profile.jpg'
+			image:'../img/assets/model-x/main-slideshow/city.jpg'
 		},
 		page: {
 			tagline: '',
@@ -130,9 +130,9 @@ export let Info  = {
 	'Model 3':{
 		name:'Model 3',
 		home: {
-			thumb: 'img/assets/model-3/side-profile.png',
+			thumb: 'img/assets/model-3/thumb.png',
 			tagline: '',
-			image:'../img/assets/model-s/slider/red-profile.jpg'
+			image:'../img/assets/model-3/blue-sunset.jpg'
 		},
 		page: {
 			tagline: '',
@@ -196,9 +196,9 @@ export let Info  = {
 	'Roadster':{
 		name:'Roadster',
 		home: {
-			thumb: 'img/assets/roadster/top.jpg',
+			thumb: 'img/assets/roadster/thumb.jpg',
 			tagline: '',
-			image:'../img/assets/model-s/slider/red-profile.jpg'
+			image:'../img/assets/roadster/hero.jpg'
 		},
 		page: {
 			tagline: '',

@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import styled from 'styled-components';
 
+const LgImage = styled.img`
+  width: 100vw;
+  
+
+`
 
 export default class Car extends Component {
 
@@ -13,7 +19,7 @@ export default class Car extends Component {
 
   		<div> 
   			<h1>{this.props.name}</h1>
-        <img src={this.props.source} />
+        <LgImage src={this.props.source} />
   		 </div>
   	)
   }
