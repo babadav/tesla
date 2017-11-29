@@ -6,13 +6,13 @@ import CarSelection from './CarSelection';
 import NavBar from './NavBar';
 
 const HeroStyle = styled.div`
-	
+  
 background: black; width: 100%; height: 100vh;
 
 `
 
 const H1Style = styled.h1 `
-	color: #eee;
+  color: #eee;
   position: absolute;
   left: 150px;
   top: 300px;
@@ -50,13 +50,13 @@ export default class Hero extends Component {
 
   render() {
     return (
-    	<OutterWrap>
+      <OutterWrap>
         <H1Style>Sports Series</H1Style>
         <Video autoPlay="true" loop muted>
             <source src='https://www.tesla.com/ns_videos/homepage-video-summer-2017.mp4?20170808' type="video/mp4" />
         </Video>
 
-    	</OutterWrap>
+      </OutterWrap>
     );
   }
 }

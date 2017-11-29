@@ -6,7 +6,7 @@ import CarSelection from './CarSelection';
 import Hero from './Hero';
 
 const HeroStyle = styled.div`
-	width: 100%; 
+  width: 100%; 
   height: 100vh;
   
 
@@ -24,11 +24,11 @@ export default class Home extends Component {
 
   render() {
     return (
-    	<div>
+      <div>
         <Hero />
-	    	<Features />
-	    	<CarSelection />
-    	</div>
+        <Features />
+        <CarSelection />
+      </div>
     );
   }
 }

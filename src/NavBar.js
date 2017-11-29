@@ -52,7 +52,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-    	<NavStyle>
+      <NavStyle>
         <UlStyle>
           <NavLink to='../overview/Model-S' exact><li>Model S</li></NavLink>
           <NavLink to='../overview/Model-X' exact><li>Model X</li></NavLink>
