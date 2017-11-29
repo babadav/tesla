@@ -52,7 +52,7 @@ export let Info  = {
 							},
 							{
 								name:'0-200KPH (124MPH)',
-								value:'',
+								value:'10.7 sec',
 							},
 							{
 								name:'MAXIMUM POWER',
@@ -68,16 +68,12 @@ export let Info  = {
 						name:'engine',
 						list:[
 							{
-								name: 'ENGINE CAPACITY',
-								value:''
-							},
-							{
 								name:'TYPE',
 								value:'Electric'
 							},
 							{
 								name:'TECHNOLOGY',
-								value:'',
+								value:'All-Wheel Drive',
 							},
 						],
 					},
@@ -99,11 +95,11 @@ export let Info  = {
 						list:[
 							{
 								name: 'CO2',
-								value:''
+								value:'0'
 							},
 							{
 								name:'POWER TO WEIGHT',
-								value:''
+								value:'41:30'
 							},
 						],
 					},
@@ -128,7 +124,7 @@ export let Info  = {
 			},
 			design: {
 				name:'Model S',
-				tagline: 'text for specific car',
+				tagline: 'Performance and safety refined',
 				summary: `Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.`,
 				hero:{
 					hero: '../img/assets/model-s/slider/blue-sunset.jpg',
@@ -139,15 +135,15 @@ export let Info  = {
 				modules: [
 					{	
 						id:0,
-						headline: 'Perfomance',
-						image: '../img/assets/model-s/slider/red-bay.jpg',
-						text: 'Model S comes standard with Dual Motor All-Wheel Drive, P100D Model S pairs a high performance rear motor with a high efficiency front motor to achieve Ludicrous acceleration, from zero to 60 miles per hour in 2.5 seconds.',
+						headline: 'Plenty of room',
+						image: '../img/assets/model-s/trunk.jpg',
+						text: 'There are seats for five in the 2016 Model S, though seating capacity increases to seven with the optional rear-facing jump seats. The Model S comes standard with 12-way power-adjustable, heated front seats and leatherette upholstery. Heated rear seats, a heated steering wheel, and leather upholstery are optional.',
 					},
 					{	
 						id:1,
-						headline: 'Built around the driver',
+						headline: 'Stylish Interior',
 						image: '../img/assets/model-s/slider/interior-details.jpg',
-						text: `Model S is a driver's car. The cabin combines meticulous noise engineering with Tesla's uniquely quiet powertrain to obtain the sound dynamics of a recording studio. The gem of the interior is the 17 inch touchscreen, which is angled toward the driver and includes both day and night modes for better visibility without distraction. It puts rich content at your fingertips and provides mobile connectivity so you can easily find your destination, favorite song or a new restaurant.`,
+						text: `The 2016 Tesla Model S comes standard with a 17-inch touch screen, navigation, dual-zone automatic climate control, a seven-speaker audio system, Bluetooth, two USB ports, HD Radio, front- and rearview cameras, front and rear parking sensors, blind spot monitoring, and lane departure warning.`,
 					},
 					{	
 						id:2,
@@ -170,9 +166,9 @@ export let Info  = {
 				modules: [
 					{	
 						id:0,
-						headline: 'Perfomance',
+						headline: 'Tech',
 						image: '../img/assets/model-s/slider/red-bay.jpg',
-						text: 'Model S comes standard with Dual Motor All-Wheel Drive, P100D Model S pairs a high performance rear motor with a high efficiency front motor to achieve Ludicrous acceleration, from zero to 60 miles per hour in 2.5 seconds.',
+						text: 'The 2016 Tesla Model S comes standard with a 17-inch touch screen, navigation, dual-zone automatic climate control, a seven-speaker audio system, Bluetooth, two USB ports, HD Radio, front- and rearview cameras, front and rear parking sensors, blind spot monitoring, and lane departure warning.',
 					},
 					{	
 						id:1,
@@ -191,7 +187,7 @@ export let Info  = {
 		},
 		{	
 			name:'Model X',
-			tagline: '',
+			tagline: 'Meet Model X',
 			summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
 			hero: {
 				hero: '../img/assets/model-x/hero.jpg',
@@ -321,7 +317,7 @@ export let Info  = {
 			},
 			design:{
 				name:'Model X',
-				tagline: '',
+				tagline: 'Meet Model X',
 				summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
 				hero: {
 					hero: '../img/assets/model-x/main-slideshow/city.jpg',
@@ -357,7 +353,7 @@ export let Info  = {
 			},
 			interior:{
 				name:'Model X',
-				tagline: '',
+				tagline: 'Meet Model X',
 				summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
 				hero: {
 					hero: '../img/assets/model-x/cargo-slides/cargo-2.jpg',
@@ -394,8 +390,8 @@ export let Info  = {
 		},
 		{
 			name:'Model 3',
-			tagline: '',
-			summary: `Model S is our flagship, premium sedan with more range, acceleration, displays and customization options. It’s the safest car in its class with unlimited Supercharging for the duration of ownership when referred by an owner.Model 3 is a smaller, simpler, more affordable electric car. Although it is our newest vehicle, Model 3 is not “Version 3” or the most advanced Tesla. Like Model S, it is designed to be the safest car in its class.`,
+			tagline: 'Model 3',
+			summary: `Designed to attain the highest safety ratings in every category, Model 3 achieves 220 miles of range while starting at only $35,000 before incentives.`,
 			hero:{
 				hero: '../img/assets/model-3/hero.jpg',
 				video:'../img/assets/model-3/hero.mp4',
