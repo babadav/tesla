@@ -2,11 +2,6 @@
 export let Info  = {
 	'Model S':{
 		name:'Model S',
-		home: {
-			thumb: '../img/assets/model-s/thumb.png',
-			tagline: 'Model S',
-			image:'../img/assets/model-s/slider/red-profile.jpg' 
-		},
 		page: {
 			tagline: 'text for specific car',
 			summary: `Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.`,
@@ -70,11 +65,6 @@ export let Info  = {
 	},
 	'Model X':{
 		name:'Model X',
-		home: {
-			thumb: 'img/assets/model-x/thumb.png',
-			tagline: 'Model X',
-			image:'../img/assets/model-x/main-slideshow/city.jpg'
-		},
 		page: {
 			tagline: '',
 			summary: `Model X is the safest, quickest, and most capable sport utility vehicle in history. Designed as a family car without compromise, Model X comes standard with all-wheel drive, ample seating for up to seven adults, standard active safety features, and up to 295 miles of range on a single charge. And it's the quickest SUV in production, capable of accelerating from zero to 60 miles per hour in 2.9 seconds.`,
@@ -143,11 +133,6 @@ export let Info  = {
 	},
 	'Model 3':{
 		name:'Model 3',
-		home: {
-			thumb: '../img/assets/model-3/thumb.png',
-			tagline: '',
-			image:'../img/assets/model-3/blue-sunset.jpg'
-		},
 		page: {
 			tagline: '',
 			summary: `Model S is our flagship, premium sedan with more range, acceleration, displays and customization options. It’s the safest car in its class with unlimited Supercharging for the duration of ownership when referred by an owner.Model 3 is a smaller, simpler, more affordable electric car. Although it is our newest vehicle, Model 3 is not “Version 3” or the most advanced Tesla. Like Model S, it is designed to be the safest car in its class.`,
@@ -210,11 +195,6 @@ export let Info  = {
 	},
 	'Roadster':{
 		name:'Roadster',
-		home: {
-			thumb: 'img/assets/roadster/thumb.png',
-			tagline: '',
-			image:'../img/assets/roadster/hero.jpg'
-		},
 		page: {
 			tagline: '',
 			summary: `Tesla Roadster2019 Tesla Roadster shownCar and DriverCar Buying ServiceLocal dealer pricing not available for this vehicle.The original Tesla Roadster put the all-electric automaker on the map, even if most Model S and Model X buyers don’t remember it. Touted to make its return to the lineup in 2020, the new Roadster picks up where the old model left off, and then some. Tesla claims a zero-to-60-mph time of 1.9 seconds and a top speed of more than 250 mph; all-wheel drive will be standard and a 200-kWh battery is said to provide 620 miles of range. `,
@@ -303,7 +283,56 @@ export let Info  = {
 				image: '../img/assets/roadster/rear.jpg',
 				text: 'text for module',
 			},
-		]
+		],
+		nav:[
+			{
+				to:'../Model-S',
+				name:'Model S'
+			},
+			{
+				to:'../Model-X',
+				name:'Model X'
+			},
+			{
+				to:'../Model-3',
+				name:'Model 3'
+			},
+			{
+				to:'../Roadster',
+				name:'Roadster'
+			},
+		],
+		select:[
+			{	
+				id:0,
+				thumb: '../img/assets/model-s/thumb.png',
+				tagline: 'Model S',
+				image:'../img/assets/model-s/slider/red-profile.jpg',
+				name:'Model S',
+			},
+			{
+				id:1,
+				thumb: 'img/assets/model-x/thumb.png',
+				tagline: 'Model X',
+				image:'../img/assets/model-x/main-slideshow/city.jpg',
+				name:'Model X',
+			},
+			{
+				id:2,
+				thumb: '../img/assets/model-3/thumb.png',
+				tagline: '',
+				image:'../img/assets/model-3/blue-sunset.jpg',
+				name:'Model 3',
+			},
+			{
+				id:3,
+				thumb: 'img/assets/roadster/thumb.png',
+				tagline: '',
+				image:'../img/assets/roadster/hero.jpg',
+				name:'Roadster',
+			},
+
+		],
 	}
 	
 }

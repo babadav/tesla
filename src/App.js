@@ -10,6 +10,16 @@ const OverviewWrapper = (data) => (
 
   <Overview data={Info[data.match.params.model.replace('-',' ')]}/>
 )
+const HomeWrapper = (data) => (
+  <div>
+    <NavBar items={Info['Home'].nav} />
+    <Home 
+      features={Info['Home'].modules} 
+      video={Info["Home"].video} 
+      select={Info["Home"].select}
+    />
+  </div>
+)
 
 export default class App extends Component {
 
@@ -25,10 +35,10 @@ export default class App extends Component {
     return (
         <BrowserRouter className="Ap1p">
           <div className="App__body">
-            <NavBar/>
             <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/overview/:model" render={(props) => OverviewWrapper(props)} />
+              <Route path="/" exact component={(props) => HomeWrapper(props)} />
+              <Route path="/:model" render={(props) => OverviewWrapper(props)} />
+              <Route path="/:model/specs" render={(props) => OverviewWrapper(props)} />
             </Switch>
          </div>
       </BrowserRouter>

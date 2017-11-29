@@ -31,7 +31,7 @@ export default class CarSelection extends Component {
 
   constructor (props) {
   super(props);
-  this.state = {carChoice:0, car:this.props.data['Model S']}
+  this.state = {carChoice:0, car:this.props.data[0]}
   this.changeCar = this.changeCar.bind(this);
   }
   changeCar(value) {
@@ -40,32 +40,18 @@ export default class CarSelection extends Component {
     })
   }
   render() {
-    console.log(this.props.data['Model S'].name)
     return (
       <div>
         <CarSelectionWrap>
-          <ThumbWrap>
-            <ThumbStyle onClick = {()=>{this.changeCar('Model S')}} src={`${this.props.data['Model S'].home.thumb}`} />
-            <p>Model S</p>
-          </ThumbWrap>
-          <ThumbWrap>
-            <ThumbStyle onClick = {()=>{this.changeCar('Model 3')}} src={`${this.props.data['Model 3'].home.thumb}`} />
-            <p>Model 3</p>
-          </ThumbWrap>
-          <ThumbWrap>
-            <ThumbStyle onClick = {()=>{this.changeCar('Model X')}} src={`${this.props.data['Model X'].home.thumb}`} />
-              <p>Model X</p>
-          </ThumbWrap>
-          <ThumbWrap>
-            <ThumbStyle onClick = {()=>{this.changeCar('Roadster')}} src={`${this.props.data['Roadster'].home.thumb}`} />
-              <p>Roadster</p>
-          </ThumbWrap>
-
-          
-
-          
+            {this.props.data.map(car =>
+              <ThumbWrap key={car.id} onClick={()=>{this.changeCar(car.id)}}>
+                <ThumbStyle src={car.thumb} />
+                <p>{car.name}</p> 
+              </ThumbWrap>
+            )}
         </CarSelectionWrap>
-        <Car name={this.state.car.name} source={this.state.car.home.image} />
+          
+        <Car name={this.state.car.name} source={this.state.car.image} />
         </div>
       
     );
