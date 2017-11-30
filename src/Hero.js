@@ -86,6 +86,7 @@ export default class Hero extends Component {
       return(
         <HeroImage src={this.props.image} />
 
+
         <OutterWrap>
           <H1Style>Drive Green.</H1Style>
           <img src={this.props.image.hero} />
@@ -97,7 +98,6 @@ export default class Hero extends Component {
           <H1Style>Drive Green.</H1Style>
           <img src={this.props.image} />
         </OutterWrap>
-
       ) 
     }
   }
