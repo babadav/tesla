@@ -47,7 +47,7 @@ export default class Hero extends Component {
   render() {
     if(this.props.homeVideo) {
       return (
-        <OutterWrap>
+        <OutterWrap className="hero">
           <H1Style>Sports Series</H1Style>
           <Video autoPlay="true" loop muted src={this.props.homeVideo} type="video/mp4">
           </Video>
@@ -57,7 +57,7 @@ export default class Hero extends Component {
     } else if(this.props.image.video && this.props.summary) {
       return(
         <div>
-          <OutterWrap>
+          <OutterWrap className="hero">
             <Video2 autoPlay="true" loop muted src={this.props.image.video} type="video/mp4" >
             </Video2>
           </OutterWrap>
@@ -66,11 +66,15 @@ export default class Hero extends Component {
       )
     } else if(this.props.summary) {
       return(
-        <img src={this.props.image.hero} />
+        <div className="hero">
+          <img src={this.props.image.hero} />
+        </div>
       ) 
     } else{
       return(
-        <img src={this.props.image} />
+        <div className="hero">
+          <img src={this.props.image} />
+        </div>
       ) 
     }
   }
