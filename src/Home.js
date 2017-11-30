@@ -5,12 +5,7 @@ import Features from './Features';
 import CarSelection from './CarSelection';
 import Hero from './Hero';
 
-const HeroStyle = styled.div`
-  width: 100%; 
-  height: 100vh;
-  
 
-`
 
 export default class Home extends Component {
 
