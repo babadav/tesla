@@ -774,15 +774,15 @@ export let Info  = {
 			},
 			{
 				id:2,
-				headline: `Designed for Performance and Aero Efficiency`,
-				image: '../img/assets/roadster/rear.jpg',
-				text: 'text for module',
+				headline: `Designed for Performance `,
+				image: '../img/assets/model-s/slider/red-profile.jpg',
+				text: 'Accelerating, braking, shifting, steering. The vital components of performance driving are all perfectly blended and balanced into one seamless confidence inspiring experience that once tasted needs to be experienced again and again.',
 			},
 			{
 				id:3,
-				headline: '',
-				image: '../img/assets/roadster/rear.jpg',
-				text: 'text for module',
+				headline: 'Everyday',
+				image: '../img/assets/model-s/slider/red-profile.jpg',
+				text: 'Tesla is an accomplished track performer yet provides a level of ride comfort and refinement. Our cars are designed to thrill , yet its excellent visibility , smooth gearbox, and comfortable driving position make it simple to live with even in town.',
 			},
 		],
 		select:[

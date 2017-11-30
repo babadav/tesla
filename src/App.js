@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import styled from 'styled-components';
 import Hero from './Hero';
 import Home from './Home';
 import NavBar from './NavBar';
 import {Info} from './Info';
 import CarWrappers from './CarWrappers';
+
+const AppStyle = styled.div`
+
+    font-family: Proxima Nova, Sans Serif;
+  `
+
+
 
 const Wrapper = (data,tag) => (
   <div>
@@ -33,13 +41,13 @@ export default class App extends Component {
   render() {
     return (
         <BrowserRouter className="Ap1p">
-          <div className="App__body">
+          <AppStyle className="App__body">
             <Switch>
               <Route path="/" exact component={(props) => HomeWrapper(props)} />
               <Route path="/:model/:page" render={(props) => Wrapper(props)} />
               <Route path="/:model/:page" render={(props) => Wrapper(props)} />
             </Switch>
-         </div>
+         </AppStyle>
       </BrowserRouter>
     );
   }
