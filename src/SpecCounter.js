@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import styled from 'styled-components';
 import AnimatedNumber from 'react-animated-number';
 
-const NumWrap = styled.h1 `
+const NumWrap = styled.div `
   > .number {
   	color: red;
   }

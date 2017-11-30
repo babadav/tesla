@@ -42,23 +42,27 @@ export let Info  = {
 					{
 						name:'performance',
 						list:[
-							{
+							{	id:0,
 								name: 'MAXIMUM SPEED',
 								value:'225 km/h (140 mph)'
 							},
 							{
+								id:1,
 								name:'0-100KPH (62MPH)',
 								value:'5.8s'
 							},
 							{
+								id:2,
 								name:'0-200KPH (124MPH)',
 								value:'10.7 sec',
 							},
 							{
+								id:3,
 								name:'MAXIMUM POWER',
 								value:'382 hp @ 6,850 rpm (285 kW)',
 							},
 							{
+								id:4,
 								name:'MAXIMUM TORQUE',
 								value:'325 lb·ft (441 N·m)',
 							},
@@ -68,10 +72,12 @@ export let Info  = {
 						name:'engine',
 						list:[
 							{
+								id:0,
 								name:'TYPE',
 								value:'Electric'
 							},
 							{
+								id:1,
 								name:'TECHNOLOGY',
 								value:'All-Wheel Drive',
 							},
@@ -81,10 +87,12 @@ export let Info  = {
 						name:'braking',
 						list:[
 							{
+								id:0,
 								name: '200-0KPH (124-0MPH)',
 								value:'133m (436FT)'
 							},
 							{
+								id:1,
 								name:'100-0KPH (62-0MPH)',
 								value:'33M (108FT)'
 							},
@@ -94,10 +102,12 @@ export let Info  = {
 						name:'efficiency',
 						list:[
 							{
+								id:0,
 								name: 'CO2',
 								value:'0'
 							},
 							{
+								id:1,
 								name:'POWER TO WEIGHT',
 								value:'41:30'
 							},
@@ -107,14 +117,17 @@ export let Info  = {
 						name:'weight',
 						list:[
 							{
+								id:0,
 								name: 'DIN WEIGHT',
 								value:'2,027 kg (4,469 lb)'
 							},
 							{
+								id:1,
 								name:'DRY WEIGHT',
 								value:'1,400KG (1,350KG)'
 							},
 							{
+								id:2,
 								name:'WEIGHT DISTRIBUTION',
 								value:'(F/R) 42%/58%'
 							},
@@ -232,22 +245,27 @@ export let Info  = {
 						name:'performance',
 						list:[
 							{
+								id:0,
 								name: 'MAXIMUM SPEED',
 								value:'130 mph (210 km/h)'
 							},
 							{
+								id:1,
 								name:'0-100KPH (62MPH)',
 								value:' 3.3s'
 							},
 							{
+								id:2,
 								name:'0-200KPH (124MPH)',
 								value:'',
 							},
 							{
+								id:3,
 								name:'MAXIMUM POWER',
 								value:'259 hp (193 kW)',
 							},
 							{
+								id:4,
 								name:'MAXIMUM TORQUE',
 								value:'387 to 485 lb-ft',
 							},
@@ -257,14 +275,17 @@ export let Info  = {
 						name:'engine',
 						list:[
 							{
+								id:0,
 								name: 'ENGINE CAPACITY',
 								value:''
 							},
 							{
+								id:1,
 								name:'TYPE',
 								value:'Electric'
 							},
 							{
+								id:2,
 								name:'TECHNOLOGY',
 								value:'',
 							},
@@ -274,10 +295,12 @@ export let Info  = {
 						name:'braking',
 						list:[
 							{
+								id:0,
 								name: '200-0KPH (124-0MPH)',
 								value:'133m (436FT)'
 							},
 							{
+								id:1,
 								name:'100-0KPH (62-0MPH)',
 								value:'33M (108FT)'
 							},
@@ -287,10 +310,12 @@ export let Info  = {
 						name:'efficiency',
 						list:[
 							{
+								id:0,
 								name: 'CO2',
 								value:'0'
 							},
 							{
+								id:1,
 								name:'POWER TO WEIGHT',
 								value:'5,000 pounds (2,300 kg)'
 							},
@@ -300,14 +325,17 @@ export let Info  = {
 						name:'weight',
 						list:[
 							{
+								id:0,
 								name: 'DIN WEIGHT',
 								value:'5,267 to 5,377 lbs'
 							},
 							{
+								id:1,
 								name:'DRY WEIGHT',
 								value:''
 							},
 							{
+								id:2,
 								name:'WEIGHT DISTRIBUTION',
 								value:'100D - Front 50%, Rear 50%'
 							},
@@ -429,22 +457,27 @@ export let Info  = {
 						name:'performance',
 						list:[
 							{
+								id:0,
 								name: 'MAXIMUM SPEED',
 								value:'140 mph (225 km/h)'
 							},
 							{
+								id:1,
 								name:'0-100KPH (62MPH)',
 								value:'5.6s'
 							},
 							{
+								id:2,
 								name:'0-200KPH (124MPH)',
 								value:'',
 							},
 							{
+								id:3,
 								name:'MAXIMUM POWER',
 								value:'258 hp (192 kW)',
 							},
 							{
+								id:4,
 								name:'MAXIMUM TORQUE',
 								value:'713 lb/ft ',
 							},
@@ -454,14 +487,17 @@ export let Info  = {
 						name:'engine',
 						list:[
 							{
+								id:0,
 								name: 'ENGINE CAPACITY',
 								value:'75 kWh'
 							},
 							{
+								id:1,
 								name:'TYPE',
 								value:'Electric'
 							},
 							{
+								id:2,
 								name:'TECHNOLOGY',
 								value:'',
 							},
@@ -471,10 +507,12 @@ export let Info  = {
 						name:'braking',
 						list:[
 							{
+								id:0,
 								name: '200-0KPH (124-0MPH)',
 								value:'133m (436FT)'
 							},
 							{
+								id:1,
 								name:'100-0KPH (62-0MPH)',
 								value:'33M (108FT)'
 							},
@@ -484,10 +522,12 @@ export let Info  = {
 						name:'efficiency',
 						list:[
 							{
+								id:0,
 								name: 'CO2',
 								value:'0'
 							},
 							{
+								id:1,
 								name:'POWER TO WEIGHT',
 								value:'379  bhp per ton'
 							},
@@ -497,14 +537,17 @@ export let Info  = {
 						name:'weight',
 						list:[
 							{
+								id:0,
 								name: 'DIN WEIGHT',
 								value:'2039KG (4495 lbs)'
 							},
 							{
+								id:1,
 								name:'DRY WEIGHT',
 								value:''
 							},
 							{
+								id:2,
 								name:'WEIGHT DISTRIBUTION',
 								value:'(F/R) 47%/53%'
 							},
@@ -613,22 +656,27 @@ export let Info  = {
 						name:'performance',
 						list:[
 							{
+								id:0,
 								name: 'MAXIMUM SPEED',
 								value:'Over 250 mph'
 							},
 							{
+								id:1,
 								name:'0-100KPH (62MPH)',
 								value:'3.2s'
 							},
 							{
+								id:2,
 								name:'0-200KPH (124MPH)',
 								value:'',
 							},
 							{
+								id:3,
 								name:'MAXIMUM POWER',
 								value:'',
 							},
 							{
+								id:4,
 								name:'MAXIMUM TORQUE',
 								value:'10,000 Nm',
 							},
@@ -638,14 +686,17 @@ export let Info  = {
 						name:'engine',
 						list:[
 							{
+								id:0,
 								name: 'ENGINE CAPACITY',
 								value:'75 kWh'
 							},
 							{
+								id:1,
 								name:'TYPE',
 								value:'Electric'
 							},
 							{
+								id:2,
 								name:'TECHNOLOGY',
 								value:'',
 							},
@@ -655,10 +706,12 @@ export let Info  = {
 						name:'braking',
 						list:[
 							{
+								id:0,
 								name: '200-0KPH (124-0MPH)',
 								value:'133m (436FT)'
 							},
 							{
+								id:1,
 								name:'100-0KPH (62-0MPH)',
 								value:'33M (108FT)'
 							},
@@ -668,10 +721,12 @@ export let Info  = {
 						name:'efficiency',
 						list:[
 							{
+								id:0,
 								name: 'CO2',
 								value:'249G/KM'
 							},
 							{
+								id:1,
 								name:'POWER TO WEIGHT',
 								value:'434PS (428 BHP)'
 							},
@@ -681,14 +736,17 @@ export let Info  = {
 						name:'weight',
 						list:[
 							{
+								id:0,
 								name: 'DIN WEIGHT',
 								value:'1,495KG (3,296LB)'
 							},
 							{
+								id:1,
 								name:'DRY WEIGHT',
 								value:'1,400KG (1,350KG)'
 							},
 							{
+								id:2,
 								name:'WEIGHT DISTRIBUTION',
 								value:'(F/R) 42%/58%'
 							},

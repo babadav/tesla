@@ -12,7 +12,7 @@ export default class SpecList extends Component {
 					<div>
 						<h1>{cat.name}</h1>
 						{cat.list.map(spec =>
-							<Spec name={spec.name} value={spec.value} />
+							<Spec id={spec.id} key={spec.id} name={spec.name} value={spec.value} />
 						)}
 					</div>
 				)}
