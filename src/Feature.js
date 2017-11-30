@@ -26,7 +26,6 @@ const FeatureWrap = styled.div`
 		font-weight: 100;
 
 	}
-
 	h1{
 		width: 80%;
 		margin: 0 auto;
