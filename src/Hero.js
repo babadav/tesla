@@ -34,6 +34,18 @@ const Video2 = styled.video `
   opacity: .9;
 `
 
+const UnderHeroText = styled.h2 `
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1rem;
+    line-height: 2;
+`
+const HeroImage = styled.img `
+    width: 100vw;
+`
+
 export default class Hero extends Component {
 
   // constructor (props) {
@@ -61,16 +73,16 @@ export default class Hero extends Component {
             <Video2 autoPlay="true" loop muted src={this.props.image.video} type="video/mp4" >
             </Video2>
           </OutterWrap>
-          <h2>{this.props.summary}</h2>
+          <UnderHeroText>{this.props.summary}</UnderHeroText>
         </div>
       )
     } else if(this.props.summary) {
       return(
-        <img src={this.props.image.hero} />
+        <HeroImage src={this.props.image.hero} />
       ) 
     } else{
       return(
-        <img src={this.props.image} />
+        <HeroImage src={this.props.image} />
       ) 
     }
   }

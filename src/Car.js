@@ -21,6 +21,17 @@ const Button = styled.div`
   background:blue;
   color:white;
  }
+`
+
+const LgCarImage = styled.div`
+  width: 100vw;
+  background-repeat: no-repeat;
+
+  >.button-text{
+    position: relative;
+    top: 375px;
+    left: 100px;
+  }
 
 
 `
@@ -34,11 +45,15 @@ export default class Car extends Component {
   	console.log(this.props);
   	return(
 
-  		<div> 
+  		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
+        
+        <div className='button-text'>
+          <h1>{this.props.name}</h1>
+          <Button><NavLink to={`${this.props.name.replace(' ','-')}/Overview`}>Discover</NavLink></Button>
+        </div>
         <LgImage src={this.props.source} />
-  			<h1>{this.props.name}</h1>
-        <Button><NavLink to={`${this.props.name.replace(' ','-')}/Overview`}>Discover</NavLink></Button>
-  		 </div>
+  			
+  		 </LgCarImage>
   	)
   }
 }

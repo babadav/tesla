@@ -4,12 +4,11 @@ import styled from 'styled-components';
 
 const ImgStyle = styled.img`
 	width: 100%;
+	height:100%
 `
 const ImgContainer = styled.div`
 	width: 50%;
-
-
-
+	height:300px;
 `
 
 

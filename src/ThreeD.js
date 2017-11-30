@@ -1,5 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import styled from 'styled-components';
+
+
+const ThreeDContainer = styled.div`
+    width: 70%;
+    margin: 0 auto;
+    font-family: Proxima Nova, Sans Serif;
+
+    > img{
+      width:100%;
+    }
+  `
+
 
 
 export default class ThreeD extends Component {
@@ -49,9 +62,9 @@ export default class ThreeD extends Component {
 
   render() {
     return (
-    	<div onMouseDown = { e => this.startRotate(e)} onMouseMove = { e => this.rotateCar(e)} onMouseUp= { e => this.endRotate(e)} style={this.props.style}>
+    	<ThreeDContainer onMouseDown = { e => this.startRotate(e)} onMouseMove = { e => this.rotateCar(e)} onMouseUp= { e => this.endRotate(e)} style={this.props.style}>
         <img src={`${this.props.image}${this.state.counter}.jpg`} />
-      </div>
+      </ThreeDContainer>
       
     )
   }
