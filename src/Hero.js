@@ -82,17 +82,7 @@ export default class Hero extends Component {
 
         <HeroImage src={this.props.image.hero} />
       ) 
-    } else{
-      return(
-        <HeroImage src={this.props.image} />
-
-
-        <OutterWrap>
-          <H1Style>Drive Green.</H1Style>
-          <img src={this.props.image.hero} />
-        </OutterWrap>
-      ) 
-    } else{
+    } else {
       return(
         <OutterWrap>
           <H1Style>Drive Green.</H1Style>

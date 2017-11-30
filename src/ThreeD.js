@@ -42,13 +42,13 @@ export default class ThreeD extends Component {
       if(e.clientX > this.xLocation) {
         this.xLocation = e.clientX;
         this.setState({
-          counter: this.state.counter < 50 ? this.state.counter+1 : this.state.counter = 1,
+          counter: this.state.counter < 36 ? this.state.counter+1 : this.state.counter = 1,
         })
       } else {
         if(this.state.counter>0) {
           this.xLocation = e.clientX;
           this.setState({
-            counter: this.state.counter > 1 ? this.state.counter-1 : this.state.counter = 50,
+            counter: this.state.counter > 1 ? this.state.counter-1 : this.state.counter = 36,
           })
         }
       }
