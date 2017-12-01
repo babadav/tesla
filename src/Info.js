@@ -32,6 +32,7 @@ export let Info  = {
 				},
 			],
 			specs: {
+				name:'Model S',
 				counter: {
 					speed:225,
 					zero60:2.8,
@@ -234,6 +235,7 @@ export let Info  = {
 				},
 			],
 			specs: {
+				name:'Model X',
 				counter: {
 					speed:130,
 					zero60:3.3,
@@ -446,6 +448,7 @@ export let Info  = {
 				},
 			],
 			specs: {
+				name:'Model 3',
 				counter: {
 					speed:140,
 					zero60:5.6,
@@ -645,6 +648,7 @@ export let Info  = {
 				},
 			],
 			specs: {
+				name:"Roadster",
 				counter: {
 					speed:250,
 					zero60:1.9,

@@ -20,7 +20,7 @@ export default class Specs extends Component {
 			<SpecsStyle>
 				<Hero image={this.props.data.specsHero}/>
 				<SpecCounter specs={this.props.data.counter} />
-				<SpecList data={this.props.data.specList}/>
+				<SpecList data={this.props.data.specList} name= {this.props.data.name} />
 			</SpecsStyle>
 		)
 

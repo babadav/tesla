@@ -33,7 +33,7 @@ export default class ThreeD extends Component {
     e.preventDefault();
     console.log(this.xLocation);
     this.mouseMove = true;
-    this.xLocation = e.clientX
+    this.xLocation = e.clientX;
 
   }
   rotateCar = (e) => {
