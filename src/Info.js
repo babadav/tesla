@@ -371,7 +371,7 @@ export let Info  = {
 						id:1,
 						headline: 'The Safest SUV Ever',
 						image: '../img/assets/model-x/main-slideshow/ski.jpg',
-						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. Forward-facing radar see through heavy rain, fog, dust, and beyond the vehicle ahead—helping to prevent accidents by providing simultaneous visibility in every direction. Model X is the first SUV ever to achieve a 5-star safety rating in every category and sub-category, the lowest probability of occupant injury, and a rollover risk half that of any SUV on the road.`,
+						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. Forward-facing radar see through heavy rain, fog, dust, and beyond the vehicle ahead—helping to prevent accidents by providing simultaneous visibility in every direction.`,
 					},
 					{	
 						id:2,
