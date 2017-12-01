@@ -41,7 +41,7 @@ export let Info  = {
 				specsHero: '../img/assets/model-s/section-hero.jpg',
 				specList:[
 					{
-						name:'performance',
+						name:'Performance',
 						list:[
 							{	id:0,
 								name: 'MAXIMUM SPEED',
@@ -70,7 +70,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'engine',
+						name:'Engine',
 						list:[
 							{
 								id:0,
@@ -85,7 +85,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'braking',
+						name:'Braking',
 						list:[
 							{
 								id:0,
@@ -100,7 +100,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'efficiency',
+						name:'Efficiency',
 						list:[
 							{
 								id:0,
@@ -115,7 +115,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'weight',
+						name:'Weight',
 						list:[
 							{
 								id:0,
@@ -244,7 +244,7 @@ export let Info  = {
 				specsHero: '../img/assets/model-x/main-slideshow/white-cruise.jpg',
 				specList:[
 					{
-						name:'performance',
+						name:'Performance',
 						list:[
 							{
 								id:0,
@@ -274,7 +274,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'engine',
+						name:'Engine',
 						list:[
 							{
 								id:0,
@@ -294,7 +294,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'braking',
+						name:'Braking',
 						list:[
 							{
 								id:0,
@@ -309,7 +309,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'efficiency',
+						name:'Efficiency',
 						list:[
 							{
 								id:0,
@@ -324,7 +324,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'weight',
+						name:'Weight',
 						list:[
 							{
 								id:0,
@@ -457,7 +457,7 @@ export let Info  = {
 				specsHero: '../img/assets/model-3/hero.jpg',
 				specList:[
 					{
-						name:'performance',
+						name:'Performance',
 						list:[
 							{
 								id:0,
@@ -487,7 +487,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'engine',
+						name:'Engine',
 						list:[
 							{
 								id:0,
@@ -507,7 +507,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'braking',
+						name:'Braking',
 						list:[
 							{
 								id:0,
@@ -522,7 +522,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'efficiency',
+						name:'Efficiency',
 						list:[
 							{
 								id:0,
@@ -537,7 +537,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'weight',
+						name:'Weight',
 						list:[
 							{
 								id:0,
@@ -657,7 +657,7 @@ export let Info  = {
 				specsHero: '../img/assets/roadster/hero.jpg',
 				specList:[
 					{
-						name:'performance',
+						name:'Performance',
 						list:[
 							{
 								id:0,
@@ -687,7 +687,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'engine',
+						name:'Engine',
 						list:[
 							{
 								id:0,
@@ -707,7 +707,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'braking',
+						name:'Braking',
 						list:[
 							{
 								id:0,
@@ -722,7 +722,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'efficiency',
+						name:'Efficiency',
 						list:[
 							{
 								id:0,
@@ -737,7 +737,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'weight',
+						name:'Weight',
 						list:[
 							{
 								id:0,
