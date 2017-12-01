@@ -42,8 +42,12 @@ const UnderHeroText = styled.h2 `
     font-size: 1rem;
     line-height: 2;
 `
-const HeroImage = styled.img `
-    width: 100vw;
+// const HeroImage = styled.img `
+//     width: 100vw;
+// `
+const HeroImage = styled.img`
+  width:100%;
+
 `
 
 export default class Hero extends Component {
@@ -86,7 +90,7 @@ export default class Hero extends Component {
       return(
         <OutterWrap>
           <H1Style>Drive Green.</H1Style>
-          <img src={this.props.image} />
+          <HeroImage src={this.props.image} />
         </OutterWrap>
       ) 
     }
