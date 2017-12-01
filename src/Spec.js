@@ -10,6 +10,7 @@ const LightWrap = styled.div`
 		font-size:1.1em;
 		width:50%;
 	}
+	align-items: center;
 `
 const DarkWrap = styled.div`
 	background:RGBA(50,50,50,.2);
@@ -21,6 +22,7 @@ const DarkWrap = styled.div`
 		font-size:1.1em;
 		width:50%;
 	}
+	align-items: center;
 `
 export default class Spec extends Component {
 	render() {
