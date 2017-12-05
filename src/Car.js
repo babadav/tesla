@@ -25,13 +25,10 @@ const Button = styled.div`
 
 const LgCarImage = styled.div`
   width: 100vw;
-<<<<<<< HEAD
-=======
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 55vh;
   background-position: center;
->>>>>>> 340725fc0d5ec8a1c132de4cc1503b8216aa3d6e
 
   >.button-text{
     position: relative;
