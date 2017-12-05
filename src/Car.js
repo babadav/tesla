@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink,BrowserRouter, Switch, Route } from "react-router-dom";
 import styled from 'styled-components';
+var Waypoint = require('react-waypoint')
 
 const LgImage = styled.img`
   width: 100vw;
@@ -51,7 +52,7 @@ export default class Car extends Component {
   render(){
   	console.log(this.props);
   	return(
-
+    
   		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
         
         <div className='button-text'>
