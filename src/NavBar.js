@@ -8,6 +8,7 @@ const NavStyle = styled.nav`
   background-color: rgb(34, 34, 34);
   display: flex;
   justify-content: space-between;
+  
 `
 
 const UlStyle = styled.ul`

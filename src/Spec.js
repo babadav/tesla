@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 const LightWrap = styled.div`
 	background:transparent;
+	padding-left: 5%;
 	display:flex;
 	h3 {
 		width:50%
@@ -15,6 +16,8 @@ const LightWrap = styled.div`
 const DarkWrap = styled.div`
 	background:RGBA(50,50,50,.2);
 	display:flex;
+    height: 50px;
+    padding-left: 5%;
 	h3 {
 		width:50%;
 	}

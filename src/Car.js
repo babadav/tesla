@@ -26,6 +26,9 @@ const Button = styled.div`
 const LgCarImage = styled.div`
   width: 100vw;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 55vh;
+  background-position: center;
 
   >.button-text{
     position: relative;
@@ -51,8 +54,7 @@ export default class Car extends Component {
           <h1>{this.props.name}</h1>
           <Button><NavLink to={`${this.props.name.replace(' ','-')}/Overview`}>Discover</NavLink></Button>
         </div>
-        <LgImage src={this.props.source} />
-  			
+         			
   		 </LgCarImage>
   	)
   }
