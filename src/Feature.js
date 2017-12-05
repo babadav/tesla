@@ -4,11 +4,14 @@ import styled from 'styled-components';
 
 const ImgStyle = styled.img`
 	width: 100%;
-	height:100%
+	height:100%;
 `
 const ImgContainer = styled.div`
 	width: 50%;
 	height:300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 `
 
 
@@ -63,14 +66,14 @@ export default class Feature extends Component {
 						<h2>{this.props.text}</h2>
 					</div>
 					
-					<ImgContainer><ImgStyle src={this.props.image} /></ImgContainer>
+					<ImgContainer style={{backgroundImage:`url(${this.props.image})`}}></ImgContainer>
 			  	</FeatureWrap>
 			  
 			);
 		} else {
 			return (
 			<FeatureWrap>
-				<ImgContainer><ImgStyle src={this.props.image} /></ImgContainer>
+				<ImgContainer style={{backgroundImage:`url(${this.props.image})`}}></ImgContainer>
 				<div className='text-wrap'>
 					<h1>{this.props.headline}</h1>
 					<h2>{this.props.text}</h2>

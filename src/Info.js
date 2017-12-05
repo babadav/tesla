@@ -737,7 +737,7 @@ export let Info  = {
 						],
 					},
 					{
-						name:'Weight',
+						name:'Wieight',
 						list:[
 							{
 								id:0,
