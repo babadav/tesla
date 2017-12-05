@@ -22,7 +22,7 @@ export let Info  = {
 					id:1,
 					headline: 'Built around the driver',
 					image: '../img/assets/model-s/slider/interior-details.jpg',
-					text: `Model S is a driver's car. The cabin combines meticulous noise engineering with Tesla's uniquely quiet powertrain to obtain the sound dynamics of a recording studio. The gem of the interior is the 17 inch touchscreen, which is angled toward the driver and includes both day and night modes for better visibility without distraction. It puts rich content at your fingertips and provides mobile connectivity so you can easily find your destination, favorite song or a new restaurant.`,
+					text: `Model S is a driver's car. The cabin combines meticulous noise engineering with Tesla's uniquely quiet powertrain to obtain the sound dynamics of a recording studio. The gem of the interior is the 17 inch touchscreen, which is angled toward the driver and includes both day and night modes for better visibility without distraction. `,
 				},
 				{	
 					id:2,
@@ -365,13 +365,13 @@ export let Info  = {
 						id:1,
 						headline: 'The Safest SUV Ever',
 						image: '../img/assets/model-x/main-slideshow/ski.jpg',
-						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. Forward-facing radar see through heavy rain, fog, dust, and beyond the vehicle ahead—helping to prevent accidents by providing simultaneous visibility in every direction. Model X is the first SUV ever to achieve a 5-star safety rating in every category and sub-category, the lowest probability of occupant injury, and a rollover risk half that of any SUV on the road.`,
+						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects.  `,
 					},
 					{	
 						id:2,
 						headline: 'Seating and Storage',
 						image: '../img/assets/model-x/main-slideshow/indoor-dark.jpg',
-						text: 'Model X has the most storage room of any sport utility vehicle in its class, and seating for up to seven adults. Designed to maximize passenger comfort, the second and third row in the seven-seat option are capable of folding flat and flush, creating extra cargo space. Available in three custom seating configurations, Model X can be optimized to suit the specific needs of you and your family.',
+						text: 'Model X has the most storage room of any sport utility vehicle in its class, and seating for up to seven adults. Designed to maximize passenger comfort, the second and third row in the seven-seat option are capable of folding flat and flush, creating extra cargo space. ',
 					},
 					{	
 						id:3,
@@ -401,13 +401,13 @@ export let Info  = {
 						id:1,
 						headline: 'The Safest SUV Ever',
 						image: '../img/assets/model-x/main-slideshow/ski.jpg',
-						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. Forward-facing radar see through heavy rain, fog, dust, and beyond the vehicle ahead—helping to prevent accidents by providing simultaneous visibility in every direction.`,
+						text: `Model X is the safest SUV ever, with standard active safety features and hardware built to provide visibility that a driver cannot access alone. Eight surround cameras allow for 360-degree vision, while twelve ultrasonic sensors provide detection of surrounding objects. `,
 					},
 					{	
 						id:2,
 						headline: 'Seating and Storage',
 						image: '../img/assets/model-x/main-slideshow/indoor-dark.jpg',
-						text: 'Model X has the most storage room of any sport utility vehicle in its class, and seating for up to seven adults. Designed to maximize passenger comfort, the second and third row in the seven-seat option are capable of folding flat and flush, creating extra cargo space. Available in three custom seating configurations, Model X can be optimized to suit the specific needs of you and your family.',
+						text: 'Model X has the most storage room of any sport utility vehicle in its class, and seating for up to seven adults. Designed to maximize passenger comfort, the second and third row in the seven-seat option are capable of folding flat and flush, creating extra cargo space. ',
 					},
 					{	
 						id:3,
@@ -432,7 +432,7 @@ export let Info  = {
 					id:0,
 					headline: 'Affordable',
 					image: '../img/assets/model-3/red-bay.jpg',
-					text: `After much anticipation, the Tesla Model 3 has finally been shown in production form. The "affordable" Tesla sedan, as it's often called, has a starting price of $35,000 before incentives. The base model has an estimated range of 220 miles and will go from 0 to 60 mph in 5.6 seconds, according to Tesla. An optional battery pack is available for $9,000 that increases range to 310 miles and drops the 0-60-mph time to 5.1 seconds.`,
+					text: `After much anticipation, the Tesla Model 3 has finally been shown in production form. The "affordable" Tesla sedan, as it's often called, has a starting price of $35,000 before incentives. The base model has an estimated range of 220 miles and will go from 0 to 60 mph in 5.6 seconds, according to Tesla. `,
 				},
 				{	
 					id:1,
@@ -572,19 +572,19 @@ export let Info  = {
 						id:0,
 						headline: 'Affordable',
 						image: '../img/assets/model-3/red-bay.jpg',
-						text: `After much anticipation, the Tesla Model 3 has finally been shown in production form. The "affordable" Tesla sedan, as it's often called, has a starting price of $35,000 before incentives. The base model has an estimated range of 220 miles and will go from 0 to 60 mph in 5.6 seconds, according to Tesla. An optional battery pack is available for $9,000 that increases range to 310 miles and drops the 0-60-mph time to 5.1 seconds.`,
+						text: `After much anticipation, the Tesla Model 3 has finally been shown in production form. The "affordable" Tesla sedan, as it's often called, has a starting price of $35,000 before incentives. The base model has an estimated range of 220 miles and will go from 0 to 60 mph in 5.6 seconds, according to Tesla. `,
 					},
 					{	
 						id:1,
 						headline: 'Interior',
 						image: '../img/assets/model-3/interior-head-unit.jpg',
-						text: `The interior is dominated by the standard 15-inch touchscreen display mounted in the center of the dash. There is no traditional instrument cluster, so all functions are controlled and monitored through the center screen. Dual-zone climate control, Wi-Fi and navigation all come standard along with all the hardware necessary for semiautonomous driving capabilities. A separate Autopilot options package ($5,000) is required to unlock most of those features, including adaptive cruise control, lane keeping assist and remote parking. Tesla says that another package can be added on top of that for $3,000 to bring full autonomous capabilities, although the actual implementation of it has yet to be finalized.`,
+						text: `The interior is dominated by the standard 15-inch touchscreen display mounted in the center of the dash. There is no traditional instrument cluster, so all functions are controlled and monitored through the center screen. Dual-zone climate control, Wi-Fi and navigation all come standard along with all the hardware necessary for semiautonomous driving capabilities. `,
 					},
 					{
 						id:2,
 						headline: 'Features',
 						image: '../img/assets/model-3/interior.jpg',
-						text: 'The car doesn’t have a key, or a key fob. Instead it syncs to your phone through a bluetooth connection and will automatically unlock as you approach. The backup in case your phone dies or you need to hand it off to a valet is a thin key card that you can keep in your wallet. Swipe it on the car’s B pillar to unlock it, and place it on the center console to turn the car on. Unlike early versions of the Model S and X, the Model 3 is built to be a daily driver, with plenty of cupholders, door pockets, and console storage. The materials of the arm rests and doors feel ready for abuse. And the stitched synthetic material used for the premium seats is different than leather, but not inferior.  ',
+						text: 'The car doesn’t have a key, or a key fob. Instead it syncs to your phone through a bluetooth connection and will automatically unlock as you approach. The backup in case your phone dies or you need to hand it off to a valet is a thin key card that you can keep in your wallet. Swipe it on the car’s B pillar to unlock it, and place it on the center console to turn the car on.  ',
 					},
 				],
 			},
@@ -607,13 +607,13 @@ export let Info  = {
 						id:1,
 						headline: 'Interior',
 						image: '../img/assets/model-3/interior-head-unit.jpg',
-						text: `The interior is dominated by the standard 15-inch touchscreen display mounted in the center of the dash. There is no traditional instrument cluster, so all functions are controlled and monitored through the center screen. Dual-zone climate control, Wi-Fi and navigation all come standard along with all the hardware necessary for semiautonomous driving capabilities. A separate Autopilot options package ($5,000) is required to unlock most of those features, including adaptive cruise control, lane keeping assist and remote parking. Tesla says that another package can be added on top of that for $3,000 to bring full autonomous capabilities, although the actual implementation of it has yet to be finalized.`,
+						text: `The interior is dominated by the standard 15-inch touchscreen display mounted in the center of the dash. There is no traditional instrument cluster, so all functions are controlled and monitored through the center screen. Dual-zone climate control, Wi-Fi and navigation all come standard along with all the hardware necessary for semiautonomous driving capabilities.`,
 					},
 					{
 						id:2,
 						headline: 'Features',
 						image: '../img/assets/model-3/interior.jpg',
-						text: 'The car doesn’t have a key, or a key fob. Instead it syncs to your phone through a bluetooth connection and will automatically unlock as you approach. The backup in case your phone dies or you need to hand it off to a valet is a thin key card that you can keep in your wallet. Swipe it on the car’s B pillar to unlock it, and place it on the center console to turn the car on. Unlike early versions of the Model S and X, the Model 3 is built to be a daily driver, with plenty of cupholders, door pockets, and console storage. The materials of the arm rests and doors feel ready for abuse. And the stitched synthetic material used for the premium seats is different than leather, but not inferior.  ',
+						text: 'The car doesn’t have a key, or a key fob. Instead it syncs to your phone through a bluetooth connection and will automatically unlock as you approach. The backup in case your phone dies or you need to hand it off to a valet is a thin key card that you can keep in your wallet. Swipe it on the car’s B pillar to unlock it, and place it on the center console to turn the car on.  ',
 					},
 				],
 			},
@@ -621,7 +621,7 @@ export let Info  = {
 		{
 			name:'Roadster',
 			tagline: '',
-			summary: `Tesla Roadster2019 Tesla Roadster shownCar and DriverCar Buying ServiceLocal dealer pricing not available for this vehicle.The original Tesla Roadster put the all-electric automaker on the map, even if most Model S and Model X buyers don’t remember it. Touted to make its return to the lineup in 2020, the new Roadster picks up where the old model left off, and then some. Tesla claims a zero-to-60-mph time of 1.9 seconds and a top speed of more than 250 mph; all-wheel drive will be standard and a 200-kWh battery is said to provide 620 miles of range. `,
+			summary: `Tesla Roadster 2019 Tesla Roadster shownCar and DriverCar Buying ServiceLocal dealer pricing not available for this vehicle.The original Tesla Roadster put the all-electric automaker on the map, even if most Model S and Model X buyers don’t remember it. Touted to make its return to the lineup in 2020, the new Roadster picks up where the old model left off, and then some.  `,
 			hero:{
 				video: '../img/assets/roadster/roadster.mp4',
 				hero: '../img/assets/roadster/hero.jpg',
@@ -631,7 +631,7 @@ export let Info  = {
 				{
 					id:0,
 					headline: 'Glass Roof',
-					image: '../img/assets/roadster/top-open.jpg',
+					image: '../img/assets/roadster/top-open-sized.jpg',
 					text: 'The panoramic roof adds more light and a sense of space to the interior and is available in three levels of tinting; two fixed and one variable. The extended leather interior, standard on the Roadster, provides a sumptuous finish to the headlining.',
 				},
 				{
