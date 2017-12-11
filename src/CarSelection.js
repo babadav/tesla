@@ -5,8 +5,6 @@ import Car from './Car';
 
 const ThumbStyle = styled.img`
   width: 100%; 
-
-
 `
 
 const CarSelectionWrap = styled.div`
@@ -14,14 +12,12 @@ const CarSelectionWrap = styled.div`
   width: 100%;
   justify-content: center;
   padding-top: 5%;
-
 `
 const ThumbWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 `
 
 
