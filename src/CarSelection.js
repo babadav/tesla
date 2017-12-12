@@ -6,8 +6,6 @@ var Waypoint = require('react-waypoint');
 
 const ThumbStyle = styled.img`
   width: 100%; 
-
-
 `
 
 const CarSelectionWrap = styled.div`
@@ -21,7 +19,6 @@ const ThumbWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 `
 
 

@@ -6,7 +6,6 @@ var Waypoint = require('react-waypoint')
 const LgImage = styled.img`
   width: 100vw;
   
-
 `
 const Button = styled.div`
   > a {
@@ -30,8 +29,6 @@ const LgCarImage = styled.div`
   background-size: cover;
   padding-bottom: 55vh;
   background-position: center;
-
-
   >.button-text{
     position: relative;
     top: 375px;
@@ -46,28 +43,36 @@ const LgCarImage = styled.div`
   height: 68vh;
   background-position: center;
   background-repeat: no-repeat;
-
-  
-
-
 `
 
 export default class Car extends Component {
 
   constructor (props) {
-	super(props);
+  super(props);
   }
   render(){
+
   	console.log(this.props);
   	return(
   		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
+
+    console.log(this.props);
+    return(
+    
+      <LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
+
         
         <div className='button-text'>
           <h1>{this.props.name}</h1>
           <Button><NavLink to={`${this.props.name.replace(' ','-')}/Overview`}>Discover</NavLink></Button>
         </div>
+
   		 </LgCarImage>
 
   	)
+
+       </LgCarImage>
+    )
+
   }
 }
