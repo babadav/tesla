@@ -52,12 +52,11 @@ export default class Car extends Component {
   }
   render(){
 
-  	console.log(this.props);
+
   	return(
   		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
 
-    console.log(this.props);
-    return(
+
     
       <LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
 

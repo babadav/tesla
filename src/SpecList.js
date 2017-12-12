@@ -16,11 +16,21 @@ const SpecWrap = styled.div`
     	border-bottom: 1px solid rgba(5,5,5,0.5);
 	}
 	>h1 {
+
 		padding-top:20px;
+		font-size: calc(2rem + (7 - 6) * (100vw - 76.8rem)/ (110 - 76.8));
+
+		 @media (max-width: 600px) {
+    		width: 100%;
+      		font-size: calc(3rem + (7 - 6) * (100vw - 76.8rem)/ (110 - 76.8))
+
+    	}
 	}
+
 	> div {
 		padding-top:20px;
 	}
+	
 `
 const Block = styled.div`
 	width:80%;
@@ -31,6 +41,12 @@ const ListWrap = styled.div`
 	width:60%;
 	display:flex;
 	flex-direction:column;
+
+	@media (max-width: 600px) {
+		
+			width: 100%;
+
+		}
 `
 const Name = styled.div`
 	display:flex;

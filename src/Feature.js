@@ -12,6 +12,12 @@ const ImgContainer = styled.div`
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+
+    @media (max-width: 500px) {
+			width: 100%;
+			order: -1;
+		}
 `
 
 
@@ -20,6 +26,11 @@ const FeatureWrap = styled.div`
 	align-items: center;
 	background-color: RGBA(240, 240, 240, 1.00);
 
+	@media (max-width: 500px) {
+			width: 100%;
+			flex-direction: column-reverse;
+		}
+
 	> .text-wrap{
 		width: 50%;
 		display: flex;
@@ -27,12 +38,22 @@ const FeatureWrap = styled.div`
 		font-family: Proxima Nova, Sans Serif;
 		font-weight: 100;
 
+		@media (max-width: 500px) {
+			width: 100%;
+		}
+
 	}
 	h1{
 		width: 80%;
 		margin: 0 auto;
 		margin-bottom: 2.5%;
 		color: RGB(120, 120, 120);
+
+		@media (max-width: 500px) {
+		
+			margin-top: 5%;
+
+		}
 	}
 
 	h2{
@@ -41,9 +62,20 @@ const FeatureWrap = styled.div`
 		color: RGB(120, 120, 120);
 	    font-size: 1rem;
 	    line-height: 1.8;
+
+	    @media (max-width: 500px) {
+		
+			margin-bottom: 5%;
+
+		}
 	}
 
+
+	
+	
 `
+
+
 
 
 

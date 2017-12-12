@@ -8,22 +8,37 @@ const LightWrap = styled.div`
 		width:50%
 	}
 	h5 {
-		font-size: 1.1em;
 		width: 50%;
 	}
 	align-items: center;
+
+	
 `
 const DarkWrap = styled.div`
 	background:RGBA(50,50,50,.2);
 	display:flex;
     height: 50px;
     padding-left: 5%;
+    @media (max-width: 600px) {
+		
+			width: 100%;
+
+		}
 	h3 {
 		width:50%;
+
+		@media (max-width: 600px) {
+			width: 90%;
+		}
 	}
 	h5 {
-		font-size:1.1em;
 		width:50%;
+
+		@media (max-width: 600px) {
+		
+			width: 90%;
+
+		}
 	}
 	align-items: center;
 `

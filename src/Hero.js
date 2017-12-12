@@ -18,6 +18,12 @@ const H1Style = styled.h1 `
   font-family: Proxima Nova, Sans Serif;
   font-weight: 200;
   z-index: 1000;
+
+  @media (max-width: 600px) {
+    
+      display: none;
+
+    }
 `
 const OutterWrap = styled.div `
   background-color: RGB(14 , 14, 14);

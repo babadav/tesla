@@ -7,9 +7,17 @@ const ThreeDContainer = styled.div`
     width: 70%;
     margin: 0 auto;
     font-family: Proxima Nova, Sans Serif;
+    padding-bottom: 5%;
+    padding-top: 5%;
 
     > img{
       width:100%;
+    }
+
+     @media (max-width: 600px) {
+    
+      display: none;
+
     }
   `
 
@@ -62,7 +70,7 @@ export default class ThreeD extends Component {
 
   render() {
     return (
-    	<ThreeDContainer onMouseDown = { e => this.startRotate(e)} onMouseMove = { e => this.rotateCar(e)} onMouseUp= { e => this.endRotate(e)} style={this.props.style}>
+    	<ThreeDContainer onMouseDown = { e => this.startRotate(e)} onMouseMove = { e => this.rotateCar(e)} onMouseUp= { e => this.endRotate(e)} >
         <img src={`${this.props.image}${this.state.counter}.jpg`} />
       </ThreeDContainer>
       

@@ -13,6 +13,18 @@ const CarSelectionWrap = styled.div`
   width: 100%;
   justify-content: center;
   padding-top: 5%;
+  transition: all .8s;
+  opacity: 0;
+
+  &.active{
+    opacity: 1;
+  }
+
+  @media (max-width: 500px) {
+    
+      flex-direction: column;
+
+    }
 `
 const ThumbWrap = styled.div`
   display: flex;
@@ -20,10 +32,6 @@ const ThumbWrap = styled.div`
   justify-content: center;
   align-items: center;
 `
-
-
-
-
 
 export default class CarSelection extends Component {
 
@@ -43,6 +51,7 @@ export default class CarSelection extends Component {
     })
   }
   enter(){
+    console.log('hit');
     this.setState({
       showCars: true
     });

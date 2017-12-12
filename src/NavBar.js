@@ -23,15 +23,18 @@ const UlStyle = styled.ul`
  }
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 65%;
   font-family: Proxima Nova, Sans Serif;
   font-family: 200;
   list-style-type: none;
   text-decoration: none;
 
-  
-  
-  
+  @media (max-width: 600px) {
+    
+      width: 80%;
+      font-size: .7rem;
+
+    }
 
 `
 const LogoStyle = styled.div`
@@ -39,6 +42,13 @@ const LogoStyle = styled.div`
     height: 100%;
     align-self: center;
     margin-right: 5%;
+
+    @media (max-width: 600px) {
+    
+      width: 15%;
+      margin-right: 3%;
+
+    }
     
 
 `
