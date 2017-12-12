@@ -1,0 +1,28 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .item button {
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: green; }
+
+/*# sourceMappingURL=main.css.map */

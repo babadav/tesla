@@ -8,8 +8,8 @@ const LightWrap = styled.div`
 		width:50%
 	}
 	h5 {
-		font-size:1.1em;
-		width:50%;
+		font-size: 1.1em;
+		width: 50%;
 	}
 	align-items: center;
 `

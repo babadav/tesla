@@ -14,9 +14,12 @@ const NavStyle = styled.nav`
 const UlStyle = styled.ul`
   > a {
     all: unset;color:
-    
-    RGBA(152, 157, 157, 1.00);
+    transition: all 2s;
+    color: RGBA(152, 157, 157, 1.00);
 
+    &:hover {
+      color: white;
+    }
  }
   display: flex;
   justify-content: space-around;

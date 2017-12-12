@@ -11,15 +11,15 @@ const LgImage = styled.img`
 const Button = styled.div`
   > a {
     all: unset;
-    color:black;
+    color: black;
     padding: 10px 20px;
     border:1px solid black;
-    background:transparent;
+    background: white;
     border-radius:5px;
     transition:.3s all;
  }
  >a:hover {
-  background:blue;
+  background: transparent;
   color:white;
  }
 `
@@ -36,11 +36,18 @@ const LgCarImage = styled.div`
     position: relative;
     top: 375px;
     left: 100px;
+    
+
+    >h1{
+    color: white;
+    }
   }
   background-size: cover;
   height: 68vh;
   background-position: center;
   background-repeat: no-repeat;
+
+  
 
 
 `
@@ -53,7 +60,6 @@ export default class Car extends Component {
   render(){
   	console.log(this.props);
   	return(
-    
   		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
         
         <div className='button-text'>
@@ -61,6 +67,7 @@ export default class Car extends Component {
           <Button><NavLink to={`${this.props.name.replace(' ','-')}/Overview`}>Discover</NavLink></Button>
         </div>
   		 </LgCarImage>
+
   	)
   }
 }
