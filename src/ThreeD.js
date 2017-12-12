@@ -73,7 +73,6 @@ export default class ThreeD extends Component {
     	<ThreeDContainer onMouseDown = { e => this.startRotate(e)} onMouseMove = { e => this.rotateCar(e)} onMouseUp= { e => this.endRotate(e)} >
         <img src={`${this.props.image}${this.state.counter}.jpg`} />
       </ThreeDContainer>
-      
     )
   }
 }

@@ -14,7 +14,7 @@ const ImgContainer = styled.div`
     background-position: center;
 
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
 			width: 100%;
 			order: -1;
 		}
@@ -26,7 +26,7 @@ const FeatureWrap = styled.div`
 	align-items: center;
 	background-color: RGBA(240, 240, 240, 1.00);
 
-	@media (max-width: 500px) {
+	@media (max-width: 600px) {
 			width: 100%;
 			flex-direction: column-reverse;
 		}
@@ -38,7 +38,7 @@ const FeatureWrap = styled.div`
 		font-family: Proxima Nova, Sans Serif;
 		font-weight: 100;
 
-		@media (max-width: 500px) {
+		@media (max-width: 600px) {
 			width: 100%;
 		}
 
@@ -49,7 +49,7 @@ const FeatureWrap = styled.div`
 		margin-bottom: 2.5%;
 		color: RGB(120, 120, 120);
 
-		@media (max-width: 500px) {
+		@media (max-width: 600px) {
 		
 			margin-top: 5%;
 
@@ -63,7 +63,7 @@ const FeatureWrap = styled.div`
 	    font-size: 1rem;
 	    line-height: 1.8;
 
-	    @media (max-width: 500px) {
+	    @media (max-width: 600px) {
 		
 			margin-bottom: 5%;
 
