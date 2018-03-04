@@ -8,18 +8,21 @@ const LgImage = styled.img`
   
 `
 const Button = styled.div`
+
   > a {
     all: unset;
-    color: black;
+    background: black;
     padding: 10px 20px;
     border:1px solid black;
-    background: white;
+    color: white;
     border-radius:5px;
     transition:.3s all;
+    opacity: .6;
  }
- >a:hover {
-  background: transparent;
-  color:white;
+   >a:hover {
+    background: black;
+    color:white;
+    opacity: .8;
  }
 `
 
@@ -31,12 +34,15 @@ const LgCarImage = styled.div`
   background-position: center;
   >.button-text{
     position: relative;
-    top: 375px;
-    left: 100px;
+    left: 5%;
+    top: 315%;
+    width: 10%;
     
 
     >h1{
-    color: white;
+      color: white;
+          text-shadow: 2px 2px 2px black;
+      
     }
   }
   background-size: cover;
@@ -51,7 +57,6 @@ export default class Car extends Component {
   super(props);
   }
   render(){
-
 
   	return(
   		<LgCarImage style={{backgroundImage:`url(${this.props.source})`}}>
